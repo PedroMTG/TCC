@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+}
+header{
+    background-color: #FFD2E0;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.encomendas{
+    color:#505050 ;
+    font-size: 32px;
+    text-decoration: none;
+    font-family:arial,light,italic;
+}
+.barra-pesquisa{
+    text-decoration: none;
+    decoration:none ;
+    border-radius:13px ;
+    height: 50px;
+    width: 626px;
+    border: none;
+}
+
+@media screen and (max-width: 576px){
+    header{
+        background-color: #FFD2E0;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 2px;
+    }
+    .encomendas{
+        color:#505050 ;
+        font-size: 22px;
+        text-decoration: none;
+        font-family:arial,light,italic;
+    }
+    .barra-pesquisa{
+        text-decoration: none;
+        decoration:none ;
+        border-radius: 13px;
+        height: 46px;
+        width: 320px;
+        border: none;
+    }
+}    
