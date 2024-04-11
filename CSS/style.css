@@ -28,23 +28,35 @@ header{
         background-color: #FFD2E0;
         height: 160px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap:wrap;
+        justify-content:center;
         align-items:center;
         gap: 2px;
     }
     .encomendas{
-        color:#505050 ;
-        font-size: 22px;
+        color:#545454 ;
+        font-size: 18px;
         text-decoration: none;
         font-family:arial,light,italic;
-    }
+        margin: 10px;
+        
+    }.encomendas:hover{}
+    
+    
     .barra-pesquisa{
         text-decoration: none;
         decoration:none ;
-        border-radius: 13px;
-        height: 46px;
-        width: 320px;
+        border-radius: 8px;
+        height: 15%;
+        width: 40%;
         border: none;
+    }
+    .logo{
+        margin: 0px 130px 0px 130px;
+
+    }
+    .carrinho{
+        padding: 0;
+        width: 30px;
     }
 }    

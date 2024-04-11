@@ -11,11 +11,12 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.jpg" alt="" width ="20%">
+        <img src="img/logo.jpg" alt="" width ="20%" class="logo">
+        
         <input type="text" class="barra-pesquisa">
-        <a href="" class="encomendas">Encomendas</a>
-        <a href="">
-            <img src="img/carinho.png" width ="5%" alt="Carrinho">
+        <a href="#" class="encomendas">Encomendas</a>
+        <a href="#">
+            <img src="img/carinho.png" alt="Carrinho" class="carrinho">
         </a>
     </header>
     <ul></ul>
