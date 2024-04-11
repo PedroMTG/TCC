@@ -10,6 +10,7 @@
     <title>Inicio</title>
 </head>
 <body>
+
     <header>
         <img src="img/logo.jpg" alt="" width ="20%" class="logo">
         
@@ -20,6 +21,7 @@
         </a>
     </header>
     <ul></ul>
+
     <main>
 
     </main>
