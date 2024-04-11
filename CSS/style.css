@@ -1,6 +1,22 @@
 *{
     margin: 0%;
 }
+
+:root{
+    --primaria:#FFD2E0;
+    --corfonte: #505050 ;
+}
+
+
+
+
+
+
+
+
+
+/* ------ */
+
 header{
     background-color: #FFD2E0;
     height: 160px;
@@ -35,7 +51,7 @@ header{
     }
     .encomendas{
         color:#545454 ;
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         font-family:arial,light,italic;
         margin: 10px;
@@ -46,10 +62,16 @@ header{
     .barra-pesquisa{
         text-decoration: none;
         decoration:none ;
-        border-radius: 8px;
-        height: 15%;
-        width: 40%;
+        border-radius: 7px;
+        height: 16%;
+        width: 48%;
         border: none;
+    
+    }
+    .barra-pesquisa:active{
+        text-decoration: none;
+        border-style: none;
+        
     }
     .logo{
         margin: 0px 130px 0px 130px;
@@ -57,6 +79,36 @@ header{
     }
     .carrinho{
         padding: 0;
-        width: 30px;
+        width: 25px;
     }
+    hr{
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        height: 10%;
+        width: 100%;
+        background-color: #FFD2E0;
+        
+    }
+    .dropdown{
+        padding: 5px 5px 5px 15px;
+    }.selecao{
+        height: 3%;
+        font-size: 15px;
+       
+        font-weight:bold ;
+    }
+    .categorias ul{
+        display: none;
+    }
+    .categorias:focus ul{
+        display: block;
+      }
+    ul ul li {
+        display: block;
+      }
+      .dropdown-item li a{
+        margin-left: 5px;
+      }
 }    

@@ -11,6 +11,7 @@
 </head>
 <body>
 
+    <!-- HEADER -->
     <header>
         <img src="img/logo.jpg" alt="" width ="20%" class="logo">
         
@@ -20,7 +21,32 @@
             <img src="img/carinho.png" alt="Carrinho" class="carrinho">
         </a>
     </header>
-    <ul></ul>
+
+    <!-- MENU -->
+    <hr>
+    <div class="menu">
+
+    <div class="dropdown row col-5">
+    <button class="btn btn-primaria dropdown-toggle selecao border-0 text-body-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+    </button>
+    <ul class="dropdown-menu border-0 row col-8">
+        <li class="dropdown-item">Categorias</li>
+        <li><a class="dropdown-item d-table-row" href="#">yyy</a></li>
+        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+        <hr>
+        <li><a class="dropdown-item" href="#">Promoção</a></li>
+        <li><a class="dropdown-item" href="#">Duvidas frequentes</a></li>
+    </ul>
+    </div>
+
+    </div>
+    <hr>
+
+    <!-- MAIN -->
 
     <main>
 
