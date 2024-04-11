@@ -10,6 +10,7 @@
     <title>Inicio</title>
 </head>
 <body>
+
     <header>
         <img src="img/logo.jpg" alt="" width ="20%">
         <input type="text" class="barra-pesquisa">
@@ -19,6 +20,7 @@
         </a>
     </header>
     <ul></ul>
+
     <main>
 
     </main>
