@@ -13,7 +13,7 @@
 
     <!-- HEADER -->
     <header>
-        <img src="img/logo.jpg" alt="" width ="20%" class="logo">
+        <img src="img/logo1.png"  class="logo">
         
         <input type="text" class="barra-pesquisa">
         <a href="#" class="encomendas">Encomendas</a>
@@ -49,6 +49,31 @@
     <!-- MAIN -->
 
     <main>
+
+    <!-- CARROUSEL -->
+    
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner d-block justify-content-center">
+    <div class="carousel-item active">
+     <img src="img/fundo1.jpeg" class="d-block carrosel w-100" alt="" > 
+    </div>
+    <div class="carousel-item">
+     <img src="img/fundo2.jpeg" class="d-block carrosel w-100" alt="" > 
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon seta" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   
 
     </main>
 

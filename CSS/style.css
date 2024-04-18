@@ -38,7 +38,11 @@ header{
     width: 626px;
     border: none;
 }
+.seta{
+    color: aqua;
+}
 
+/* MOBILE */
 @media screen and (max-width: 576px){
     header{
         background-color: #FFD2E0;
@@ -75,7 +79,8 @@ header{
     }
     .logo{
         margin: 0px 130px 0px 130px;
-
+        padding: 0;
+        height: 110px;
     }
     .carrinho{
         padding: 0;
@@ -111,4 +116,5 @@ header{
       .dropdown-item li a{
         margin-left: 5px;
       }
+    
 }    
