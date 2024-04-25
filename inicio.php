@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
     <!-- HEADER -->
     <header>
         <img src="img/logo1.png"  class="logo">
-        
-        <input type="text" class="barra-pesquisa">
+        <i class='ph ph-magnifying-glass lupa'></i> 
+        <input type="text" class="barra-pesquisa" placeholder="Procurar">
         <a href="#" class="encomendas">Encomendas</a>
         <a href="#">
             <img src="img/carinho.png" alt="Carrinho" class="carrinho">
@@ -55,7 +56,7 @@
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner d-block justify-content-center">
     <div class="carousel-item active">
-     <img src="img/fundo1.jpeg" class="d-block carrosel w-100" alt="" > 
+     <img src="img/fundo1.jpeg" class="d-block carrosel w-100 p" alt="" > 
     </div>
     <div class="carousel-item">
      <img src="img/fundo2.jpeg" class="d-block carrosel w-100" alt="" > 
@@ -65,15 +66,34 @@
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon seta" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+  </div>
    
+  <!-- PRODUTOS -->
+  <div class="d-flex">
+    <div class="card produto" style="width: 18rem;">
+      <img src="img/cachorro.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gatinho cinza</h5>
+          <p class="card-text">R$300,00</p>
+        </div>
+    </div>
+
+    <div class="card produto" style="width: 18rem;">
+      <img src="img/cachorro.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gatinho cinza</h5>
+          <p class="card-text">R$300,00</p>
+        </div>
+    </div>
+
+  </div>
 
     </main>
 
