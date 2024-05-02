@@ -207,9 +207,10 @@ header{
       }
 
       .rodape-linha{
-        height: 1px;
-        width: 20vh;
+        height: 0.3px;
+        width: 16vh;
         background-color: black;
+        margin-block-end: 8px;
       }
 
       .rodape-redes h1{

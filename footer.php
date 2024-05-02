@@ -13,7 +13,7 @@
 
             <div class="rodape-linha"> </div>
             <div class="rodape-img">
-                <a href="https://www.facebook.com/AmigurumiStoreBrasil/"><img src="https://www.iconpacks.net/icons/2/free-facebook-icon-2869-thumb.png" alt=""></a>
+                <a href="https://www.facebook.com/AmigurumiStoreBrasil/"><img src="https://cdn-icons-png.flaticon.com/256/1051/1051360.png" alt=""></a>
                 <a href="https://www.instagram.com/solange_amigurumi/"><img src="https://cdn-icons-png.flaticon.com/512/739/739244.png" alt=""></a>
             </div>
         </div>
