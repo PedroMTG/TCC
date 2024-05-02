@@ -240,7 +240,7 @@ header{
         height: 3vh;
         width: 3vh;
       }
-      
+
       .rodape-direitos{
         height: 0.9vh;
         width: 100%;
@@ -250,6 +250,8 @@ header{
 
       /* LOGIN */
       .login{
+        height: 100%;
+        width:100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -272,8 +274,13 @@ header{
         gap: 10px;
       }
       .acessar{
-        margin: 2px;
-        border-color: 1px #63ACF0;
+        padding: 2.4px;
+        /* border-color: #63ACF0; */
+        border-style: solid;
+        border-color: #63ACF0;
+        border-radius: 4px;
+        border-width: 2px;
+        
       }
       .acessar-botao{
         text-decoration: none;
@@ -281,7 +288,9 @@ header{
         background-color: #63ACF0;
         color: white;
         border-radius: 4px;
+        padding: 10px;
       }
+
       .campo-dados{
         border: none;
         border-radius: 4px;
