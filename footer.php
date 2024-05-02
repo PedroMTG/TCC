@@ -18,8 +18,9 @@
         </div>
     </div>
 
-    <div>
-        
+    <div class="rodape-corpo-2">
+        <div class="rodape-pagamentos font_f font_1"><p>Formas de pagamento</p></div>
+        <img src="https://logospng.org/wp-content/uploads/pix.png" alt="">
     </div>
 
     <div class="font_1 rodape-direitos">© 2024. TODOS OS DIREITOS RESERVADOS ME  |  DESENVOLVIDO PELA EQUIPE FIO CRIATIVO   </div>
