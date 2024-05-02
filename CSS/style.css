@@ -54,7 +54,6 @@ header{
     color: aqua;
 }
 
-
 /* MOBILE */
 @media screen and (min-width: 576px){
     .Carrosel-desktop{
@@ -62,6 +61,7 @@ header{
         visibility: hidden;
         position: absolute;
       }
+    
 }
 @media screen and (max-width: 576px){
     header{
@@ -257,5 +257,43 @@ header{
         text-align: center;
       }
 
+      /* LOGIN */
+      .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .login-esquerda{
+
+      }
+
+      
+      .login-direita{
+        height: 300px;
+        width: 300px;
+        border-radius: 15px;
+        margin: 30px;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:var(--primaria);
+        gap: 10px;
+      }
+      .acessar{
+        margin: 2px;
+        border-color: 1px #63ACF0;
+      }
+      .acessar-botao{
+        text-decoration: none;
+        border: none;
+        background-color: #63ACF0;
+        color: white;
+        border-radius: 4px;
+      }
+      
+      /* FECHA-LOGIN */
 }    
 
