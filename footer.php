@@ -2,12 +2,14 @@
     <div class="rodape-corpo font_1">
         <div class="rodape-atendimento font_1">
             <h1>Atendimento</h1>
-            <p>(XX)xxxx-xxxx - whatsapp</p>
+            <p>(XX)xxxx-xxxx</p>
             <p>xxx@ - email</p>
         </div>
 
-        <div class="rodape-pagamento font_1">
-
+        <div class="rodape-redes font_1">
+            <h1>Redes Sociais</h1>
+            <img src="" alt="">
+            <img src="" alt="">
         </div>
 
     </div>
