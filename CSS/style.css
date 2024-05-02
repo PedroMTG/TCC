@@ -187,7 +187,7 @@ header{
       }
 
       .rodape-atendimento h1{
-        font-size: 210%;
+        font-size: 200%;
         font-weight: bold;
       }
 
@@ -206,8 +206,15 @@ header{
         font-size: 70%;
       }
 
+      .rodape-linha{
+        height: 0.3px;
+        width: 16vh;
+        background-color: black;
+        margin-block-end: 8px;
+      }
+
       .rodape-redes h1{
-        font-size: 210%;
+        font-size: 200%;
         font-weight: bold;
       }
 
@@ -224,21 +231,22 @@ header{
       }
 
       .rodape-corpo-2{
-        height: 13vh;
+        height: 9vh;
         width: 100%;
         background-color: rgb(199, 199, 199);
         display: flex;
         flex-direction: column;
-        align-items: center;
       }
 
       .rodape-pagamentos{
-        font-size: 120%;
+        font-size: 125%;
+        margin-left: 2.5vh;
       }
 
       .rodape-corpo-2 img{
-        height: 3vh;
-        width: 3vh;
+        height: 10vh;
+        width: 10vh;
+        margin-left: 4.5vh;
       }
 
 
