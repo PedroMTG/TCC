@@ -8,8 +8,11 @@
 
         <div class="rodape-redes font_1">
             <h1>Redes Sociais</h1>
-            <img src="" alt="">
-            <img src="" alt="">
+        </div>
+
+        <div class="rodape-img">
+            <img src="https://www.iconpacks.net/icons/2/free-facebook-icon-2869-thumb.png" alt="https://m.facebook.com/ateliesolangefreitas?locale=ms_MY">
+            <img src="https://cdn-icons-png.flaticon.com/512/739/739244.png" alt="">
         </div>
 
     </div>

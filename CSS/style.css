@@ -190,7 +190,20 @@ header{
         font-weight: bold;
       }
 
+      .rodape-img{
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        top: 93%;
+        left: 60%;
+      }
 
+      .rodape-img img{
+        height: 3vh;
+        width: 3vh;
+      }
 
 
       .rodape-direitos{
