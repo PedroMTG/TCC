@@ -20,8 +20,8 @@
 
         <div class="login-direita">
             <h1 class="font_1">Login</h1>
-            <input type="text">
-            <input type="text">
+            <input type="text" name="email" id="email" placeholder='E-mail' class="campo-dados">
+            <input type="text" name="senha" id="senha" placeholder='Senha' class="campo-dados">
 
             <div class="acessar">
                 <button class="acessar-botao">Acessar</button>

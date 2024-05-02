@@ -187,7 +187,7 @@ header{
       }
 
       .rodape-atendimento h1{
-        font-size: 200%;
+        font-size: 210%;
         font-weight: bold;
       }
 
@@ -206,15 +206,8 @@ header{
         font-size: 70%;
       }
 
-      .rodape-linha{
-        height: 0.3px;
-        width: 16vh;
-        background-color: black;
-        margin-block-end: 8px;
-      }
-
       .rodape-redes h1{
-        font-size: 200%;
+        font-size: 210%;
         font-weight: bold;
       }
 
@@ -231,22 +224,21 @@ header{
       }
 
       .rodape-corpo-2{
-        height: 9vh;
+        height: 13vh;
         width: 100%;
         background-color: rgb(199, 199, 199);
         display: flex;
         flex-direction: column;
+        align-items: center;
       }
 
       .rodape-pagamentos{
-        font-size: 125%;
-        margin-left: 2.5vh;
+        font-size: 120%;
       }
 
       .rodape-corpo-2 img{
-        height: 10vh;
-        width: 10vh;
-        margin-left: 4.5vh;
+        height: 3vh;
+        width: 3vh;
       }
 
       .rodape-direitos{
@@ -266,8 +258,6 @@ header{
       .login-esquerda{
 
       }
-
-      
       .login-direita{
         height: 300px;
         width: 300px;
@@ -292,7 +282,13 @@ header{
         color: white;
         border-radius: 4px;
       }
-      
+      .campo-dados{
+        border: none;
+        border-radius: 4px;
+      }
+      .campo-dados:focus{
+        outline: none;
+      }
       /* FECHA-LOGIN */
 }    
 
