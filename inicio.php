@@ -76,6 +76,11 @@
   </div>
    
   <!-- PRODUTOS -->
+    <!-- Desc1 -->
+    <div class="d-flex justify-content-center">
+      <h1 class="font_1">Destaques da loja</h1>
+    </div>
+
   <div class="d-flex">
     <div class="card produto" style="width: 18rem;">
       <img src="img/cachorro.jpg" class="card-img-top" alt="...">
@@ -92,7 +97,6 @@
           <p class="card-text">R$300,00</p>
         </div>
     </div>
-
   </div>
 
     </main>
