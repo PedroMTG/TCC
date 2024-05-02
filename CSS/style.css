@@ -149,4 +149,17 @@ header{
         width: 40%!important;
         margin: 20px;
       }
+
+      .rodape-corpo{
+        margin-top: 20px;
+        height: 30vh;
+        width: 100%;
+        background-color: rgb(199, 199, 199);
+        position: absolute;
+        bottom:0;
+        left:0;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+      }
 }    
