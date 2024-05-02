@@ -6,8 +6,8 @@
             <p>solange.acf@gmail.com</p>
         </div>
 
-        <div class="rodape-redes-container">
-            <div class="rodape-redes font_1">
+        <div class="rodape-redes-container font_1">
+            <div class="rodape-redes">
                 <h1>Redes Sociais</h1>
             </div>
 
@@ -16,6 +16,10 @@
                 <a href="https://www.instagram.com/solange_amigurumi/"><img src="https://cdn-icons-png.flaticon.com/512/739/739244.png" alt=""></a>
             </div>
         </div>
+    </div>
+
+    <div>
+        
     </div>
 
     <div class="font_1 rodape-direitos">© 2024. TODOS OS DIREITOS RESERVADOS ME  |  DESENVOLVIDO PELA EQUIPE FIO CRIATIVO   </div>
