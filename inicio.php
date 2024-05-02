@@ -15,7 +15,7 @@
     <!-- HEADER -->
     <header>
         <img src="img/logo1.png"  class="logo">
-        <i class='ph ph-magnifying-glass lupa'></i> 
+        <!-- <i class='ph ph-magnifying-glass lupa'></i>  -->
         <input type="text" class="barra-pesquisa" placeholder="Procurar">
         <a href="#" class="encomendas">Encomendas</a>
         <a href="#">
@@ -26,43 +26,45 @@
     <!-- MENU -->
     <hr>
     <div class="menu">
-
-    <div class="dropdown row col-5">
-    <button class="btn btn-primaria dropdown-toggle selecao border-0 text-body-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Menu
-    </button>
-    <ul class="dropdown-menu border-0 row col-8">
-        <li class="dropdown-item">Categorias</li>
-        <li><a class="dropdown-item d-table-row" href="#">yyy</a></li>
-        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
-        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
-        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
-        <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
-        <hr>
-        <li><a class="dropdown-item" href="#">Promoção</a></li>
-        <li><a class="dropdown-item" href="#">Duvidas frequentes</a></li>
-    </ul>
-    </div>
-
+      <div class="dropdown row col-5">
+        <button class="btn btn-primaria dropdown-toggle selecao border-0 text-body-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+          <ul class="dropdown-menu border-0 row col-8">
+              <li class="dropdown-item">Categorias</li>
+              <li><a class="dropdown-item d-table-row" href="#">yyy</a></li>
+              <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+              <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+              <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+              <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Promoção</a></li>
+              <li><a class="dropdown-item" href="#">Duvidas frequentes</a></li>
+          </ul>
+      </div>
+   
+    <a href="#"><img src="img/user.png"class="user"></a>
     </div>
     <hr>
 
     <!-- MAIN -->
-
     <main>
 
-    <!-- CARROUSEL -->
+     <!-- CARROUSEL -->
     
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner d-block justify-content-center">
     <div class="carousel-item active">
-     <img src="img/fundo1.jpeg" class="d-block carrosel w-100 p" alt="" > 
+        <img src="img/fundo1.jpeg" class="d-block w-100 p Carrosel-mobile"> 
+        <img src="img/mobile01.png" class="d-block w-100 p Carrosel-desktop"> 
     </div>
     <div class="carousel-item">
-     <img src="img/fundo2.jpeg" class="d-block carrosel w-100" alt="" > 
+     <img src="img/fundo2.jpeg" class="d-block w-100 Carrosel-mobile"> 
+     <img src="img/mobile02.png" class="d-block w-100 Carrosel-desktop"> 
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img/fundo1.jpeg" class="d-block w-100 Carrosel-mobile">
+      <img src="img/mobile01.png" class="d-block w-100 Carrosel-desktop">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -75,8 +77,8 @@
   </button>
   </div>
    
-  <!-- PRODUTOS -->
-    <!-- Desc1 -->
+    <!-- PRODUTOS -->
+      <!-- Desc1 -->
     <div class="d-flex justify-content-center">
       <h1 class="font_1">Destaques da loja</h1>
     </div>
@@ -86,7 +88,7 @@
       <img src="img/cachorro.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Gatinho cinza</h5>
-          <p class="card-text">R$300,00</p>
+          <p class="card-text preco">R$300,00</p>
         </div>
     </div>
 
@@ -94,7 +96,7 @@
       <img src="img/cachorro.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Gatinho cinza</h5>
-          <p class="card-text">R$300,00</p>
+          <p class="card-text preco">R$300,00</p>
         </div>
     </div>
   </div>
