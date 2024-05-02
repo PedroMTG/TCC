@@ -286,7 +286,13 @@ header{
         color: white;
         border-radius: 4px;
       }
-      
+      .campo-dados{
+        border: none;
+        border-radius: 4px;
+      }
+      .campo-dados:focus{
+        outline: none;
+      }
       /* FECHA-LOGIN */
 }    
 
