@@ -8,28 +8,36 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="script.js" defer></script>
     <title>Login</title>
 </head>
 <body>
 
    <main>
+       <div>
+            <a href="inicio.php"><img class="back" src="img/back.png" alt=""></a>
+       </div>
+
+    <div class="pro-login">
     <div class="login">
         <div class="login-esquerda">
-            <img src="img/logo.jpg" alt="">
+            <img src="img/logo.jpg" class="logo-login"alt="">
         </div>
 
         <div class="login-direita">
             <h1 class="font_1">Login</h1>
             <input type="text" name="email" id="email" placeholder='E-mail' class="campo-dados">
-            <input type="text" name="senha" id="senha" placeholder='Senha' class="campo-dados">
-
+        
+            <input type="password" name="senha" id="senha" placeholder='Senha' class="campo-dados">
+            <span id="toggle-password" onclick="togglePasswordVisibility()" class="visibility">Mostrar</span>
+            
             <div class="acessar">
                 <button class="acessar-botao">Acessar</button>
             </div>
 
         </div>
     </div>
+    </div>
    </main>
-  
 </body>
 </html>
