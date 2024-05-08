@@ -263,7 +263,6 @@ header{
       }
 
       .rodape-corpo{
-        margin-top: 5vh;
         height: 16vh;
         width: 100%;
         background-color: rgb(211, 211, 211);
@@ -316,11 +315,11 @@ header{
       }
 
       .rodape-corpo-2{
-        height: 9vh;
+        height: 12vh;
         width: 100%;
         background-color: rgb(211, 211, 211);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
       }
 
       .rodape-pagamentos{
@@ -330,7 +329,7 @@ header{
       }
 
       .rodape-corpo-2 img{
-        height: 4vh;
+        height: 3.5vh;
         width: 10vh;
         margin-left: 4.5vh;
       }
@@ -341,7 +340,17 @@ header{
         background-color: rgb(0, 0, 0);
         margin-block-end: 8px;
       }
-
+      .linha-rodape-1{
+        margin-top: 10vh;
+        height: 0.2vh;
+        width: 100%;
+        background-color: black;
+      }
+      .linha-rodape{
+        height: 0.2vh;
+        width: 100%;
+        background-color: black;
+      }
 
       .rodape-direitos{
         height: 0.9vh;
@@ -351,11 +360,11 @@ header{
       }
 
       .rodape-corpo-3{
-        height: 9vh;
+        height: 16vh;
         width: 100%;
         background-color: rgb(211, 211, 211);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
       }
 
       .rodape-envio{
@@ -365,7 +374,7 @@ header{
       }
 
       .img-rodape-1{
-        margin-left: 8vh;
+        margin-left: 4vh;
         height: 3vh;
         width: 15vh;
       }
@@ -374,15 +383,15 @@ header{
         position: absolute;
         height: 1.5vh;
         width: 6vh;
-        margin-left: 27vh;
-        margin-top: 4vh;
+        margin-left: 5vh;
+        margin-top: 10vh;
       }
       .img-rodape-3{
         position: absolute;
         height: 1.8vh;
         width: 6vh;
-        margin-left: 34vh;
-        margin-top: 4vh;
+        margin-left: 12vh;
+        margin-top: 10vh;
       }
 
       /* LOGIN MOBILE*/

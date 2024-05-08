@@ -1,4 +1,5 @@
 <footer>
+<div class="linha-rodape-1"></div>
     <div class="rodape-corpo font_1">
         <div class="rodape-atendimento font_1">
             <h1>Atendimento</h1>
@@ -32,6 +33,6 @@
         <img class="img-rodape-3" src="https://logodownload.org/wp-content/uploads/2017/03/pac-correios-logo.png" alt="">
     </div>
 
-
+    <div class="linha-rodape"></div>
     <div class="font_1 rodape-direitos">© 2024. TODOS OS DIREITOS RESERVADOS ME  |  DESENVOLVIDO PELA EQUIPE FIO CRIATIVO   </div>
 </footer>
