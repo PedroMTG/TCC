@@ -159,6 +159,7 @@ header{
     .rodape-atendimento{
       margin: 2.5vh;
       font-size: 80%;
+      margin-left: 11vh;
     }
 
     .rodape-atendimento h1{
@@ -167,7 +168,7 @@ header{
     }
 
     .rodape-atendimento p{
-      margin-left: 1.5vh;
+      margin-left: 3vh;
     }
 
     .rodape-redes-container{
@@ -175,7 +176,7 @@ header{
       flex-direction: column;
       align-items: center;
       margin: 2.5vh;
-      margin-left: 140vh;
+      margin-left: 130vh;
     }
 
     .rodape-redes{
@@ -188,15 +189,15 @@ header{
     }
 
     .rodape-img{
-      gap: 10px;
+      gap: 15px;
       display: flex;
       flex-direction: row;
       align-items: center;
     }
 
     .rodape-img a img{
-      height: 3vh;
-      width: 3vh;
+      height: 5vh;
+      width: 5vh;
     }
 
     .rodape-corpo-2{
@@ -209,14 +210,14 @@ header{
 
     .rodape-pagamentos{
       font-size: 110%;
-      margin-left: 2.5vh;
-      margin-top: 0.7vh;
+      margin-left: 170vh;
+      margin-top: 2vh;
     }
 
     .rodape-corpo-2 img{
-      height: 3.5vh;
-      width: 10vh;
-      margin-left: 4.5vh;
+      height: 4vh;
+      width: 12vh;
+      margin-left: 178vh;
     }
 
     .rodape-linha{
