@@ -6,6 +6,12 @@
 :root{
     --primaria:#FFD2E0;
     --corfonte: #505050 ;
+     -webkit-touch-callout: none; /* Desativa o menu de toque e segure no iOS Safari */
+    -webkit-user-select: none; /* Desativa a seleção de texto no Safari */
+    -khtml-user-select: none; /* Desativa a seleção de texto no Konqueror HTML */
+    -moz-user-select: none; /* Desativa a seleção de texto no Firefox */
+    -ms-user-select: none; /* Desativa a seleção de texto no Internet Explorer/Edge */
+    user-select: none; /* Desativa a seleção de texto em navegadores modernos */
 }
 
 /* fonte em negrito */
@@ -70,8 +76,9 @@ header{
         justify-content: center;
     
       }
-      .visibility:hover{
-        color: blue;
+      .toggle-password:hover{
+        color: rgb(0, 0, 112);
+        cursor: pointer;
       }
       .back{
         width: 40px;
@@ -94,7 +101,7 @@ header{
         
       }
       .login-esquerda{
-
+        
       }
       .login-direita{
         height: 400px;
@@ -380,13 +387,17 @@ header{
 
       /* LOGIN MOBILE*/
 
+      .logo-login{
+        width: 90vw;
+      }
       .login{
         height: 100%;
-        width:100%;
+        width:97vw;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        gap: 10vh;
       }
       .back{
         width: 30px;
@@ -395,7 +406,7 @@ header{
         margin: 20px;
       }
       .login-esquerda{
-
+        
       }
       .login-direita{
         height: 300px;

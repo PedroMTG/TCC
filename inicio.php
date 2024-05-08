@@ -56,7 +56,7 @@
     </div>
     <div class="carousel-item">
       <img src="img/fundo1.jpeg" class="d-block w-100 Carrosel-mobile">
-      <img src="img/mobile01.png" class="d-block w-100 Carrosel-desktop">
+      <img src="img/mobile3.jpeg" class="d-block w-100 Carrosel-desktop">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

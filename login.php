@@ -29,7 +29,7 @@
             <input type="text" name="email" id="email" placeholder='E-mail' class="campo-dados">
         
             <input type="password" name="senha" id="senha" placeholder='Senha' class="campo-dados">
-            <span id="toggle-password" onclick="togglePasswordVisibility()" class="visibility">Mostrar</span>
+            <span id="toggle-password" onclick="togglePasswordVisibility()" class="toggle-password">Mostrar</span>
             
             <div class="acessar">
                 <button class="acessar-botao">Acessar</button>
