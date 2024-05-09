@@ -70,15 +70,35 @@ header{
         position: absolute;
       }
       /* LOGIN DESKTOP */
+        /* ICONE DE OLHO */
+        .fechado {
+          display: inline;
+        }
+        .aberto{
+          display: none;
+        }
+        .fechado.most {
+            display: none;
+        }
+        .aberto,.fechado{
+          padding-right: 1vw;
+          position: absolute;
+        }
+        .eye{
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          
+        }
+        .fechado:hover,.aberto:hover{
+          cursor: pointer;
+        }
+        /* FECHA ICONE DE OLHO */
       .pro-login{
         display: flex;
         align-items: center;
         justify-content: center;
     
-      }
-      .toggle-password:hover{
-        color: rgb(0, 0, 112);
-        cursor: pointer;
       }
       .back{
         width: 40px;
@@ -528,7 +548,27 @@ header{
       }
 
       /* LOGIN MOBILE*/
-
+        /* ICONE DE OLHO */
+        .fechado {
+          display: inline;
+        }
+        .aberto{
+          display: none;
+        }
+        .fechado.most {
+            display: none;
+        }
+        .aberto,.fechado{
+          padding-right: 1vw;
+          position: absolute;
+        }
+        .eye{
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          
+        }
+        /* FECHA ICONE DE OLHO */
       .logo-login{
         width: 90vw;
       }
@@ -539,7 +579,7 @@ header{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 10vh;
+        gap: 3vh;
       }
       .back{
         width: 30px;

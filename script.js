@@ -1,12 +1,16 @@
 function togglePasswordVisibility() {
     var senhaInput = document.getElementById("senha");
-    var toggleButton = document.querySelector(".toggle-password");
+    var fechado = document.querySelector(".fechado");
+    var aberto = document.querySelector(".aberto");
 
     if (senhaInput.type === "password") {
         senhaInput.type = "text";
-        toggleButton.textContent = "Esconder";
+        fechado.style.display = "none";
+        aberto.style.display = "inline";
     } else {
         senhaInput.type = "password";
-        toggleButton.textContent = "Mostrar";
+        aberto.style.display = "none";
+        fechado.style.display = "inline";
     }
+    
 }
