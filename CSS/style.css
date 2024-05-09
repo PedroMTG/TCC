@@ -416,7 +416,7 @@ header{
       }
 
       .rodape-corpo{
-        height: 16vh;
+        height: 20vh;
         width: 100%;
         background-color: rgb(211, 211, 211);
         bottom:0;
@@ -463,12 +463,12 @@ header{
       }
 
       .rodape-img a img{
-        height: 3vh;
-        width: 3vh;
+        height: 3.8vh;
+        width: 3.8vh;
       }
 
       .rodape-corpo-2{
-        height: 12vh;
+        height: 14vh;
         width: 100%;
         background-color: rgb(211, 211, 211);
         display: flex;
