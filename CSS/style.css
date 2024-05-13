@@ -169,7 +169,7 @@ header{
     .rodape-corpo{
       height: 16vh;
       width: 100%;
-      background-color: rgb(211, 211, 211);
+      background-color: #F0F6FF;
       bottom:0;
       left:0;
       display: flex;
@@ -223,7 +223,7 @@ header{
     .rodape-corpo-2{
       height: 12vh;
       width: 100%;
-      background-color: rgb(211, 211, 211);
+      background-color: #F0F6FF;
       display: flex;
       flex-direction: column;
     }
@@ -268,7 +268,7 @@ header{
     .rodape-corpo-3{
       height: 16vh;
       width: 100%;
-      background-color: rgb(211, 211, 211);
+      background-color: #F0F6FF;
       display: flex;
       flex-direction: column;
     }
@@ -418,7 +418,7 @@ header{
       .rodape-corpo{
         height: 20vh;
         width: 100%;
-        background-color: rgb(211, 211, 211);
+        background-color: #F0F6FF;
         bottom:0;
         left:0;
         display: flex;
@@ -470,7 +470,7 @@ header{
       .rodape-corpo-2{
         height: 14vh;
         width: 100%;
-        background-color: rgb(211, 211, 211);
+        background-color: #F0F6FF;
         display: flex;
         flex-direction: column;
       }
@@ -515,7 +515,7 @@ header{
       .rodape-corpo-3{
         height: 16vh;
         width: 100%;
-        background-color: rgb(211, 211, 211);
+        background-color: #F0F6FF;
         display: flex;
         flex-direction: column;
       }
