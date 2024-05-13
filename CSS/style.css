@@ -527,7 +527,7 @@ header{
       }
 
       .img-rodape-1{
-        margin-left: 4vh;
+        margin-left: 3vh;
         height: 3vh;
         width: 15vh;
       }
@@ -536,15 +536,15 @@ header{
         position: absolute;
         height: 1.5vh;
         width: 6vh;
-        margin-left: 5vh;
-        margin-top: 12.5vh;
+        margin-left: 4vh;
+        margin-top: 11vh;
       }
       .img-rodape-3{
         position: absolute;
         height: 1.8vh;
         width: 6vh;
-        margin-left: 12vh;
-        margin-top: 12.5vh;
+        margin-left: 11vh;
+        margin-top: 11vh;
       }
 
       /* LOGIN MOBILE*/
