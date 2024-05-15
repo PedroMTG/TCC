@@ -14,3 +14,6 @@ function togglePasswordVisibility() {
     }
     
 }
+document.querySelectorAll('input[type="text"]').forEach(input => {
+input.setAttribute('spellcheck', 'false');
+});

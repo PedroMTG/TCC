@@ -26,10 +26,10 @@
 
         <div class="login-direita">
             <h1 class="font_1">Login</h1>
-            <input type="text" name="email" id="email" placeholder='E-mail' class="campo-dados">
+            <input type="text" name="email" id="email" placeholder='E-mail' class="campo-dados" spellcheck="false">
         
             <div class="eye">
-                <input type="password" name="senha" id="senha" placeholder='Senha' class="campo-dados">
+                <input type="password" name="senha" id="senha" placeholder='Senha' class="campo-dados" spellcheck="false">
                     <span id="toggle-password" onclick="togglePasswordVisibility()" class="aberto"><i class="ph ph-eye"></i></span>
                     <span id="toggle-password" onclick="togglePasswordVisibility()" class="fechado"><i class="ph ph-eye-slash"></i></span>
             </div>                                                                                                                                  

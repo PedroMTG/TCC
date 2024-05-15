@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Inicio</title>
 </head>
-<body>
+<body class="pagina-principal">
 
     <!-- HEADER -->
      <?php include 'header.php' ?>
