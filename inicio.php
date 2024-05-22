@@ -31,7 +31,7 @@
               <li><a class="dropdown-item d-table-row" href="#">Promoção</a></li>
               <hr>
               <li><a class="dropdown-item" href="#">Promoção</a></li>
-              <li><a class="dropdown-item" href="#">Duvidas frequentes</a></li>
+              <li><a class="dropdown-item" href="perguntas.php">Duvidas frequentes</a></li>
           </ul>
       </div>
    

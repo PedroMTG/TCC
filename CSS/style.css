@@ -312,8 +312,50 @@ header{
       /* FECHA RODAPE */
     /* PAGINA PRINCIPAL FECHA */
 
-
-
+    /* DUVIDAS FREQUENTES ABRE */
+      .duvidas-cont{
+      
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+     
+      }
+      .perguntas-cont{
+        width: 90vw;
+        height: 14vh;
+        margin: 1vw;
+      }
+      .duvidas-cont-cima{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        
+      }
+      .pergunt{
+        color: var(--corfonte);
+        
+      }
+      .respost{
+        color: var(--corfonte);
+        display: none;
+        
+      }
+      .linha{
+        color: var(--corfonte);
+      }
+      .triangu-abert{
+        width: 2vw;
+        height: 5vh;
+      }
+      .triangu-fecha{
+        width: 2vw;
+        height: 5vh;
+        display: none;
+      }
+    /* DUVIDAS FREQUENTES FECHA */
 
 
 
