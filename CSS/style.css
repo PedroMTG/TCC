@@ -319,7 +319,7 @@ header{
         align-items:center ;
         flex-direction: column;
         width: 100vw;
-        height: 100vh;
+        height: auto;
      
       }
       .perguntas-cont{
@@ -346,13 +346,22 @@ header{
       .linha{
         color: var(--corfonte);
       }
-      .triangu-abert{
+      .triangulo1{
         width: 2vw;
         height: 5vh;
+        cursor: pointer;
+        display: inline;
       }
-      .triangu-fecha{
+      .triangulo2{
         width: 2vw;
         height: 5vh;
+        display: none;
+        cursor: pointer;
+      }
+      .cima{
+        display: inline;
+      }
+      .baixo{
         display: none;
       }
     /* DUVIDAS FREQUENTES FECHA */
