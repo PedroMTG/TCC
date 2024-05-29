@@ -321,8 +321,8 @@ header{
       }
       .perguntas-cont{
         width: 90vw;
-        height: 14vh;
-        margin: 1vw;
+        height: auto;
+        margin: 2vw;
       }
       .duvidas-cont-cima{
         display: flex;
@@ -333,6 +333,7 @@ header{
       }
       .pergunt{
         color: var(--corfonte);
+        cursor: pointer;
         
       }
       .respost{
