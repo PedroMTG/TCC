@@ -3,16 +3,12 @@
     <div class="rodape-corpo font_1">
         <div class="rodape-atendimento font_1">
             <h1>Atendimento</h1>
-            <p>15 99607-4470</p>
-            <p>solange.acf@gmail.com</p>
-        </div>
+            <div class="r-p"><i class="ph ph-phone"></i>15 99607-4470</div>
+            <div class="r-p">solange.acf@gmail.com</div>
 
-        <div class="rodape-redes-container font_1">
             <div class="rodape-redes">
                 <h1>Redes Sociais</h1>
             </div>
-
-            <div class="rodape-linha"></div>
 
             <div class="rodape-img">
                 <a href="https://www.facebook.com/AmigurumiStoreBrasil/"><img src="https://cdn-icons-png.flaticon.com/256/1051/1051360.png" alt=""></a>
