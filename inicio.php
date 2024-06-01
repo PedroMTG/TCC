@@ -56,7 +56,7 @@
      <img src="img/mobile02.png" class="d-block w-100 Carrosel-desktop"> 
     </div>
     <div class="carousel-item">
-      <img src="img/fundo1.jpeg" class="d-block w-100 Carrosel-mobile">
+      <img src="img/fundo3.png" class="d-block w-100 Carrosel-mobile">
       <img src="img/mobile3.jpeg" class="d-block w-100 Carrosel-desktop">
     </div>
   </div>
@@ -80,7 +80,7 @@
     <div class="card produto" style="width: 18rem;">
       <img src="img/cachorro.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Gatinho cinza</h5>
+          <h5 class="card-title">Gatinho cinza - Amigurumi</h5>
           <p class="card-text preco">R$300,00</p>
         </div>
     </div>
@@ -88,7 +88,7 @@
     <div class="card produto" style="width: 18rem;">
       <img src="img/cachorro.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Gatinho cinza</h5>
+          <h5 class="card-title">Gatinho cinza - Amigurumi</h5>
           <p class="card-text preco">R$300,00</p>
         </div>
     </div>

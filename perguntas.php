@@ -61,12 +61,12 @@
             <div class="perguntas-cont" >
                 <div class="duvidas-cont-cima">
                   <h1 class="pergunt" id="per2" onclick="toggleDelt2Visibility()">Posso devolver e/ou fazer a troca do(s) produtos(s) que recebi?</h1>
-                  <img class="triangulo1" onclick="toggleDelt1Visibility()" src="img/trianguluFechado.png" id="tri3">
+                  <img class="triangulo1" onclick="toggleDelt2Visibility()" src="img/trianguluFechado.png" id="tri3">
                   <img class="triangulo2" onclick="toggleDelt2Visibility()" src="img/trianguluAberto.png" id="tri4">
                 </div>
 
                 <hr class="linha">
-                <p class="respost" id="resp2">Não, somente em casos que o produto venha com defeito.</p>
+                <p class="respost" id="resp2">Troca somente em casos que o produto venha com defeito.</p>
             </div>
 
             <!-- PERGUNTA 3 -->
@@ -104,8 +104,8 @@
                 <hr class="linha">
                 <p class="respost" id="resp5">O prazo de produção de 1 produto é de 15 à 20 dias úteis. 
                   <br><br>Consulte a vendedora para que ela estipule o prazo nos seguintes casos:
-                  <br>Compra de 2 produtos ou mais.
-                  <br>Urgência na entrega do(s) produtos(s).</p>
+                  <br>- Compra de 2 produtos ou mais.
+                  <br>- Urgência na entrega do(s) produtos(s).</p>
             </div>
 
             <!-- PERGUNTA 6 -->
@@ -130,20 +130,25 @@
 
                 <hr class="linha">
                 <p class="respost" id="resp7">Entre em contato com a vendedora o mais rápido possível para verificar se seu pedido já foi encaminhado e informe os dados ou endereço corretos.
-                  <br>No entanto, o ateliê adverte que a responsabilidade pelos dados preenchidos é totalmente do cliente, e que a vendedora não se responsabiliza nesses casos, pois a loja oferece a opção do usuário corrigir os dados para evitar tais incidentes.
+                  <br><br>No entanto, o ateliê adverte que a responsabilidade pelos dados preenchidos é totalmente do cliente, e que a vendedora não se responsabiliza nesses casos, pois a loja oferece a opção do usuário corrigir os dados para evitar tais incidentes.
                 </p>
             </div>
 
             <!-- PERGUNTA 8 -->
             <div class="perguntas-cont">
                 <div class="duvidas-cont-cima">
-                  <h1 class="pergunt" id="per8" onclick="toggleDelt8Visibility()">Pergunta 1</h1>
+                  <h1 class="pergunt" id="per8" onclick="toggleDelt8Visibility()">Como lavar meu amigurumi de forma correta?</h1>
                   <img class="triangulo1" onclick="toggleDelt8Visibility()" src="img/trianguluFechado.png" id="tri15">
                   <img class="triangulo2" onclick="toggleDelt8Visibility()" src="img/trianguluAberto.png" id="tri16">
                 </div>
 
                 <hr class="linha">
-                <p class="respost" id="resp8">Resposta simples e direta ao ponto </p>
+                <p class="respost" id="resp8">Siga os seguintes passos:
+                  <br><br>1. Lave com sabão neutro, sem auxílio de escova ou outros objetos;
+                  <br>2. Retire o excesso de água;
+                  <br>3. Coloque-o em uma fronha ou saco de tecido e, em seguida, coloque para centrifugar na máquina de lavar;
+                  <br>4. Secar na sombra.
+                </p>
             </div>
         </div>
     </main>

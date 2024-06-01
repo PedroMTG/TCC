@@ -64,6 +64,20 @@ header{
 
 /* DESKTOP */
 @media screen and (min-width: 576px){
+  /* div class d-flex do inicio.php, abaixo dos Destaques da Loja */
+  .d-flex{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .preco{
+    color: #145B9C;
+    font-weight:500;
+  }
+
   .Carrosel-desktop{
     display: none;
     visibility: hidden;
@@ -76,7 +90,7 @@ header{
     .user{
       width: 30px;
       height: 30px;
-      margin-right: 30px;
+      margin-right: 135px;
      
     }
     .logo{
