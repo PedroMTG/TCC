@@ -204,6 +204,7 @@ header{
         margin: 2.5vh;
         font-size: 80%;
         margin-left: 11vh;
+        display: flex;
       }
 
       .rodape-atendimento h1{
@@ -211,14 +212,12 @@ header{
         font-weight: bold;
       }
 
-      .rodape-atendimento p{
+      .r-p{
         margin-left: 3vh;
       }
 
       .rodape-redes{
         font-size: 80%;
-        position: absolute;
-        margin-left: 40vh;
         width: 20vh;
       }
 
@@ -232,8 +231,6 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: absolute;
-        margin-left: 30vh;
       }
 
       .rodape-img a img{
@@ -251,14 +248,11 @@ header{
 
       .rodape-pagamentos{
         font-size: 110%;
-        margin-left: 170vh;
-        margin-top: 2vh;
       }
 
       .rodape-corpo-2 img{
         height: 4vh;
         width: 12vh;
-        margin-left: 178vh;
       }
 
       .rodape-linha{
@@ -295,30 +289,33 @@ header{
       }
 
       .rodape-envio{
-        margin-top: 1.5vh;
-          margin-left: 2.5vh;
-          font-size: 115%;
+        font-size: 115%;
       }
 
       .img-rodape-1{
-        margin-left: 4vh;
         height: 3vh;
         width: 15vh;
       }
 
       .img-rodape-2{
-        position: absolute;
         height: 1.5vh;
         width: 6vh;
-        margin-left: 5vh;
-        margin-top: 10vh;
       }
       .img-rodape-3{
-        position: absolute;
         height: 1.8vh;
         width: 6vh;
-        margin-left: 12vh;
-        margin-top: 10vh;
+      }
+      .rodape-segundo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .rodape-principal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
       }
       /* FECHA RODAPE */
     /* PAGINA PRINCIPAL FECHA */
