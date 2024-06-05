@@ -326,14 +326,14 @@ header{
         display: flex;
         align-items:center ;
         flex-direction: column;
-        width: 100vw;
+        width: auto;
         height: auto;
      
       }
       .perguntas-cont{
-        width: 90vw;
+        width: 87vw;
         height: auto;
-        margin: 2vw;
+        margin: 1.8vw;
       }
       .duvidas-cont-cima{
         display: flex;
@@ -343,6 +343,7 @@ header{
         
       }
       .pergunt{
+        font-size: 1.9vw;
         color: var(--corfonte);
         cursor: pointer;
         
@@ -849,6 +850,65 @@ header{
         outline: none;
       }
       /* FECHA-LOGIN */
+
+       /* DUVIDAS FREQUENTES MOBILE ABRE */
+       .duvidas-cont{
       
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+     
+      }
+      .duvidas-main{
+        margin-top: 1vh;
+      }
+      .perguntas-cont{
+        width: 87vw;
+        height: auto;
+        margin: 1.8vw;
+      }
+      .duvidas-cont-cima{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        
+      }
+      .pergunt{
+        font-size: 5.5vw;
+        color: var(--corfonte);
+        cursor: pointer;
+        width: 87%;
+        
+      }
+      .respost{
+        color: var(--corfonte);
+        display: none;
+        
+      }
+      .linha{
+        color: var(--corfonte);
+      }
+      .triangulo1{
+        width: 5.5vw;
+        height: 3.2vh;
+        cursor: pointer;
+        display: inline;
+      }
+      .triangulo2{
+        width: 5.5vw;
+        height: 3.2vh;
+        display: none;
+        cursor: pointer;
+      }
+      .cima{
+        display: inline;
+      }
+      .baixo{
+        display: none;
+      }
+    /* DUVIDAS FREQUENTES MOBILE FECHA */
 }    
 
