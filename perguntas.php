@@ -42,7 +42,7 @@
 
 
         <!-- MAIN - PERGUNTAS -->
-    <main>
+    <main class="duvidas-main">
         <div class="duvidas-cont">
 
             <!-- PERGUNTA 1 -->
