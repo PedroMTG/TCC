@@ -9,7 +9,7 @@
                     <div class="r-p">solange.acf@gmail.com</div>
                 </div>
 
-                <div>
+                <div class="rodape-redes-container">
                     <div class="rodape-redes">
                         <h1>Redes Sociais</h1>
                     </div>

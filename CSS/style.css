@@ -191,8 +191,7 @@ header{
     
       /* RODAPE */
       .rodape-corpo{
-        height: 13vh;
-        width: 100%;
+        height: 19vh;
         background-color: var(--corfundo);
         bottom:0;
         left:0;
@@ -205,11 +204,13 @@ header{
         font-size: 80%;
         margin-left: 11vh;
         display: flex;
+        gap: 9rem;
       }
 
       .rodape-atendimento h1{
-        font-size: 150%;
+        font-size: 130%;
         font-weight: bold;
+        margin-top: 1vh;
       }
 
       .r-p{
@@ -217,20 +218,22 @@ header{
       }
 
       .rodape-redes{
-        font-size: 80%;
-        width: 20vh;
+        font-size: 95%;
+        width: 30vh;
+        margin-top: 0.5vh;
       }
 
       .rodape-redes h1{
-        font-size: 150%;
+        font-size: 135%;
         font-weight: bold;
       }
 
       .rodape-img{
-        gap: 15px;
+        gap: 2vh;
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-left: 4.5vh;
       }
 
       .rodape-img a img{
@@ -240,19 +243,20 @@ header{
 
       .rodape-corpo-2{
         height: 12vh;
-        width: 100%;
         background-color: var(--corfundo);
         display: flex;
         flex-direction: column;
       }
 
       .rodape-pagamentos{
-        font-size: 110%;
+        font-size: 105%;
+        font-weight: bold;
       }
 
       .rodape-corpo-2 img{
-        height: 4vh;
-        width: 12vh;
+        height: 5vh;
+        width: 13vh;
+        margin-left: 8vh;
       }
 
       .rodape-linha{
@@ -277,48 +281,57 @@ header{
         height: 0.9vh;
         width: 100%;
         font-size: 50%;
-        margin-left: 2vh;
+        margin-left: 3vh;
       }
 
       .rodape-corpo-3{
         height: 16vh;
-        width: 100%;
         background-color: var(--corfundo);
         display: flex;
         flex-direction: column;
       }
 
       .rodape-envio{
-        font-size: 115%;
+        font-size: 105%;
+        margin-top: 2vh;
+        font-weight: bold;
       }
 
       .img-rodape-1{
         height: 3vh;
         width: 15vh;
+        margin-left: 2vh;
       }
 
       .img-rodape-2{
         height: 1.5vh;
         width: 6vh;
+        margin-left: 4vh;
+        margin-top: 0.6vh;
       }
       .img-rodape-3{
-        height: 1.8vh;
+        height: 2vh;
         width: 6vh;
+        position: absolute;
+        margin-left: 11vh;
+        margin-top: 12.5vh;
       }
       .rodape-segundo{
         display: flex;
         flex-direction: row;
         align-items: center;
+        gap: 9rem;
       }
 
       .rodape-principal{
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 5rem;
+        gap: 9rem;
       }
       /* FECHA RODAPE */
     /* PAGINA PRINCIPAL FECHA */
+
 
     /* DUVIDAS FREQUENTES ABRE */
       .duvidas-cont{
@@ -658,16 +671,16 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 2.5vh;
+        width: 14vh;
       }
 
       .rodape-redes{
-        font-size: 80%;
+        font-size: 100%;
         margin-top: 5vh;
       }
 
       .rodape-redes h1{
-        font-size: 180%;
+        font-size: 135%;
         font-weight: bold;
       }
 
@@ -677,7 +690,6 @@ header{
         flex-direction: row;
         align-items: center;
         margin-block-end: 5vh;
-        margin-left: 2.7vh;
       }
 
       .rodape-img a img{
