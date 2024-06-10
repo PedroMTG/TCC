@@ -1,5 +1,5 @@
 <footer>
-<div class="linha-rodape-1"></div>
+    <div class="linha-rodape-1"></div>
     <div class="rodape-principal">
         <div class="rodape-corpo font_1">
             <div class="rodape-atendimento font_1">
