@@ -15,9 +15,9 @@
 <body>
 
    <main>
-       <div>
+     
             <a href="inicio.php"><img class="back" src="img/back.png" alt=""></a>
-       </div>
+     
 
     <div class="pro-login">
     <div class="login">

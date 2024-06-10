@@ -15,11 +15,47 @@
 <body>
 
     <main class="cadastro">
+        <!-- ESQUERDA -->
         <div class="esquerda-cadastro">
-            <img class="back-cadastro" src="img/back.png">
+            <a href="login.php"><img class="back-cadastro" src="img/back.png"></a>
             <img src="img/logo1.png">
         </div>
-        <div class="direita-cadastro"></div>
+
+        <!-- DIREITA -->
+      
+        <div class="direita-cadastro">
+            <div>
+            <div class="coluna1">
+                <div class="nome"></div>
+            </div>
+
+            <div class="coluna2">
+                <div class="cpf"></div>
+                <div class="telefone"></div>
+            </div>
+
+            <div class="coluna3">
+                <div class="endereco"></div>
+                <div class="numero-casa"></div>
+                <div class="complemento"></div>
+            </div>
+
+            <div class="coluna4">
+                <div class="bairro"></div>
+                <div class="cidade"></div>
+                <div class="estado"></div>
+                <div class="cep"></div>
+            </div>
+
+            <div class="coluna5">
+                <div class="email"></div>
+            </div>
+            <div class="coluna6">
+                
+            </div>
+
+        </div>
+        </div>
     </main>
 
 

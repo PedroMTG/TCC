@@ -2,13 +2,14 @@
     font-size: 12px;
     text-decoration: none;
 }
-main{
+.cadastro{
     height: 100vh;
     width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 3px;
 }
 .esquerda-cadastro{
     width: 30vw;
@@ -23,8 +24,114 @@ main{
     width: 50vw;
     height: 90vh;
     border-radius: 10px;
-    background-color: red;
+    background-color: rgb(255, 195, 195);
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.back-cadastro{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    top: 8vh;
+    left: 11.5vw;
+    /* margin-top: -41vh;
+    margin-left: -1.3vw; */
+ 
+  }
+.nome{
+    width: 40vw;
+    height: 6vh;
+    background-color: blue;
+    border-radius: 5px;
+}
+.cpf{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.telefone{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.endereco{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.numero-casa{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.complemento{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.bairro{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.cidade{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.estado{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.cep{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.email{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+.senha{
+    width: 10vw;
+    height: 3vh;
+    background-color: blue;
+}
+
+/* COLUNAS */
+.coluna1{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.coluna2{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.coluna3{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.coluna4{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.coluna5{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.coluna6{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
 }
