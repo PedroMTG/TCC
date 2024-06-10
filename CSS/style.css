@@ -188,148 +188,6 @@ header{
         width: 20px; /* Defina o tamanho do ícone conforme necessário */
         height: 20px;
     }
-    
-      /* RODAPE */
-      .rodape-corpo{
-        height: 19vh;
-        background-color: var(--corfundo);
-        bottom:0;
-        left:0;
-        display: flex;
-        flex-direction: row;
-      }
-
-      .rodape-atendimento{
-        margin: 2.5vh;
-        font-size: 80%;
-        margin-left: 11vh;
-        display: flex;
-        gap: 9rem;
-      }
-
-      .rodape-atendimento h1{
-        font-size: 130%;
-        font-weight: bold;
-        margin-top: 1vh;
-      }
-
-      .r-p{
-        margin-left: 2vh;
-      }
-
-      .rodape-redes{
-        font-size: 95%;
-        width: 30vh;
-        margin-top: 0.5vh;
-      }
-
-      .rodape-redes h1{
-        font-size: 135%;
-        font-weight: bold;
-      }
-
-      .rodape-img{
-        gap: 2vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-left: 3vh;
-      }
-
-      .rodape-img a img{
-        height: 5vh;
-        width: 5vh;
-      }
-
-      .rodape-corpo-2{
-        height: 12vh;
-        background-color: var(--corfundo);
-        display: flex;
-        flex-direction: column;
-      }
-
-      .rodape-pagamentos{
-        font-size: 105%;
-        font-weight: bold;
-      }
-
-      .rodape-corpo-2 img{
-        height: 5vh;
-        width: 13vh;
-        margin-left: 8vh;
-      }
-
-      .rodape-linha{
-        height: 0.3px;
-        width: 16vh;
-        background-color: rgb(0, 0, 0);
-        margin-block-end: 8px;
-      }
-      .linha-rodape-1{
-        margin-top: 10vh;
-        height: 0.2vh;
-        width: 100%;
-        background-color: black;
-      }
-      .linha-rodape{
-        height: 0.2vh;
-        width: 100%;
-        background-color: black;
-      }
-
-      .rodape-direitos{
-        height: 0.9vh;
-        width: 100%;
-        font-size: 50%;
-        margin-left: 3vh;
-      }
-
-      .rodape-corpo-3{
-        height: 16vh;
-        background-color: var(--corfundo);
-        display: flex;
-        flex-direction: column;
-      }
-
-      .rodape-envio{
-        font-size: 105%;
-        margin-top: 2vh;
-        font-weight: bold;
-      }
-
-      .img-rodape-1{
-        height: 3vh;
-        width: 15vh;
-        margin-left: 2vh;
-      }
-
-      .img-rodape-2{
-        height: 1.5vh;
-        width: 6vh;
-        margin-left: 4vh;
-        margin-top: 0.6vh;
-      }
-      .img-rodape-3{
-        height: 2vh;
-        width: 6vh;
-        position: absolute;
-        margin-left: 11vh;
-        margin-top: 12.5vh;
-      }
-      .rodape-segundo{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 9rem;
-      }
-
-      .rodape-principal{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 9rem;
-      }
-      /* FECHA RODAPE */
     /* PAGINA PRINCIPAL FECHA */
 
 
@@ -609,20 +467,20 @@ header{
       .dropdown-item li a{
         margin-left: 5px;
       }
-    .w-100{
+      .w-100{
         margin: 2% 10% 2% 10%;
         width: 80%!important;
-    }
-    .carousel-control-next-icon,.carousel-control-prev-icon{
-        background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 8 8"%3e%3cpath d="M4 0l4 4-4 4-1-1 3-3-3-3z"/%3e%3c/svg%3e');
-        width: 20px; /* Defina o tamanho do ícone conforme necessário */
-        height: 20px;
-    }
-    .carousel-control-prev-icon {
-        background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 8 8"%3e%3cpath d="M4 0l-4 4 4 4 1-1-3-3 3-3z"/%3e%3c/svg%3e');
-        width: 20px; /* Defina o tamanho do ícone conforme necessário */
-        height: 20px;
-    }
+      }
+      .carousel-control-next-icon,.carousel-control-prev-icon{
+          background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 8 8"%3e%3cpath d="M4 0l4 4-4 4-1-1 3-3-3-3z"/%3e%3c/svg%3e');
+          width: 20px; /* Defina o tamanho do ícone conforme necessário */
+          height: 20px;
+      }
+      .carousel-control-prev-icon {
+          background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 8 8"%3e%3cpath d="M4 0l-4 4 4 4 1-1-3-3 3-3z"/%3e%3c/svg%3e');
+          width: 20px; /* Defina o tamanho do ícone conforme necessário */
+          height: 20px;
+      }
       .produto{
         font-size: 15px;
         width: 40%!important;
@@ -641,175 +499,29 @@ header{
         height: 30px;
         margin-right: 10px;
       }
-      /* RODAPE MOBILE */
-      .rodape-corpo{
-      
-        width: 100%;
-        background-color: var(--corfundo);
-        bottom: 0;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .rodape-principal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .rodape-atendimento{
-        margin: 1vh;
-        font-size: 80%;
-      }
-
-      .rodape-atendimento h1{
-        font-size: 135%;
-        font-weight: bold;
-      }
-
-      .rodape-redes-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .rodape-redes{
-        font-size: 100%;
-        margin-top: 5vh;
-      }
-
-      .rodape-redes h1{
-        font-size: 135%;
-        font-weight: bold;
-      }
-
-      .rodape-img{
-        gap: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-block-end: 1vh;
-      }
-
-      .rodape-img a img{
-        height: 3.4vh;
-        width: 3.4vh;
-      }
-
-      .rodape-corpo-2{
-        width: 100%;
-        background-color: var(--corfundo);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .rodape-pagamentos{
-        font-size: 110%;
-        margin-top: 3vh;
-      }
-
-      .rodape-corpo-2 img{
-        height: 3.5vh;
-        width: 10vh;
-        margin-block-end: 1vh;
-      }
-
-      .rodape-linha{
-        height: 0.1px;
-        width: 16vh;
-        background-color: rgb(0, 0, 0);
-        margin-block-end: 8px;
-      }
-
-      .linha-rodape-1{
-        margin-top: 10vh;
-        height: 0.1vh;
-        width: 100%;
-        background-color: black;
-      }
-
-      .linha-rodape{
-        height: 0.1vh;
-        width: 100%;
-        background-color: black;
-      }
-
-      .rodape-direitos{
-        height: 0.9vh;
-        width: 100%;
-        font-size: 50%;
-        text-align: center;
-      }
-
-      .rodape-corpo-3{
-        height: 15vh;
-        width: 100%;
-        background-color: var(--corfundo);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .rodape-envio{
-        font-size: 115%;
-      }
-
-      .img-rodape-1{
-        height: 2.5vh;
-        width: 13vh;
-      }
-
-      .img-rodape-2{
-        position: absolute;
-        height: 1vh;
-        width: 5vh;
-        margin-top: 9.5vh;
-        margin-right: 4vh;
-      }
-      
-      .img-rodape-3{
-        position: absolute;
-        height: 1.2vh;
-        width: 5vh;
-        margin-left: 7.6vh;
-        margin-top: 9.7vh;
-      }
-      .alinha-noob{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      /* FECHA RODAPE MOBILE */
-
       /* LOGIN MOBILE*/
-        /* ICONE DE OLHO */
-        .fechado {
-          display: inline;
-        }
-        .aberto{
+
+
+      /* ICONE DE OLHO */
+      .fechado {
+        display: inline;
+      }
+      .aberto{
+        display: none;
+      }
+      .fechado.most {
           display: none;
-        }
-        .fechado.most {
-            display: none;
-        }
-        .aberto,.fechado{
-          padding-right: 1vw;
-          position: absolute;
-        }
-        .eye{
-          display: flex;
-          flex-direction: row-reverse;
-          align-items: center;
-          
-        }
+      }
+      .aberto,.fechado{
+        padding-right: 1vw;
+        position: absolute;
+      }
+      .eye{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        
+      }
         /* FECHA ICONE DE OLHO */
       .logo-login{
         width: 90vw;
