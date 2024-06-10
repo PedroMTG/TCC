@@ -12,23 +12,22 @@
     <script src="script.js" defer></script>
     <title>Inicio</title>
 </head>
-<body class="pagina-principal">
+<body>
 
-    <!-- HEADER -->
-     <?php include 'header2.php' ?>
-
-
-    <!-- MENU -->
-
-
-
-
+    <main class="cadastro">
+        <div class="esquerda-cadastro">
+            <img class="back-cadastro" src="img/back.png">
+            <img src="img/logo1.png">
+        </div>
+        <div class="direita-cadastro"></div>
+    </main>
 
 
 
 
 
-    <!-- FOOTER -->
-    <?php include 'footer.php' ?>
+
+
+    
 </body>
 </html>
