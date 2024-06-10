@@ -233,7 +233,7 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 4.5vh;
+        margin-left: 3vh;
       }
 
       .rodape-img a img{
@@ -649,13 +649,19 @@ header{
         bottom: 0;
         left: 0;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .rodape-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
       .rodape-atendimento{
         margin: 1vh;
         font-size: 80%;
-        margin-left: 2.5vh;
       }
 
       .rodape-atendimento h1{
@@ -663,9 +669,7 @@ header{
         font-weight: bold;
       }
 
-      .r-p{
-        margin-left: 1.5vh;
-      }
+
 
       .rodape-redes-container{
         display: flex;
