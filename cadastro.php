@@ -24,34 +24,104 @@
         <!-- DIREITA -->
       
         <div class="direita-cadastro">
-            <div>
+            <div class="alinhamentos">
             <div class="coluna1">
-                <div class="nome"></div>
+                <div class="nome">
+                    <p>Nome de usuário</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>                            
+                </div>
             </div>
 
             <div class="coluna2">
-                <div class="cpf"></div>
-                <div class="telefone"></div>
+                <div class="cpf">
+                    <p>CPF/CNPJ</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="telefone">
+                    <p>Telefone/Celular</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
             </div>
 
             <div class="coluna3">
-                <div class="endereco"></div>
-                <div class="numero-casa"></div>
-                <div class="complemento"></div>
+                <div class="endereco">
+                    <p>Endereço</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="numero-casa">
+                    <p>N°</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="complemento">
+                    <p>Complemento</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
             </div>
 
             <div class="coluna4">
-                <div class="bairro"></div>
-                <div class="cidade"></div>
-                <div class="estado"></div>
-                <div class="cep"></div>
+                <div class="bairro">
+                    <p>Bairro</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="cidade">
+                    <p>Cidade</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="estado">
+                    <p>UF</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="cep">
+                    <p>CEP</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
             </div>
 
             <div class="coluna5">
-                <div class="email"></div>
+                <div class="email">
+                    <p>E-mail</p>
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
             </div>
+
+
             <div class="coluna6">
-                
+                <div class="senha">
+                    <p class="">Criar Senha</p>  
+                    <form action="">
+                        <input type="text" class="dados-cadastrados">
+                    </form>  
+                </div>
+                <div class="link-back">
+                    <p>Ja possui conta?</p><a href="login.php"><p>Login</p></a>
+                </div>
+                <div>
+                    <div class="cadastrar">
+                        <button class="cadastrar-botao">Cadastrar</button>
+                    </div>
+                </div>
             </div>
 
         </div>

@@ -1,3 +1,12 @@
+:root{
+    --tamanho-do-input:12vh;
+    --distancia-inputs:1.8vw;
+    --corfonte-cadastro: #8C8D94 ;
+}
+p{
+    color: var(--corfonte-cadastro);
+}
+
 .n-tenho-conta{
     font-size: 12px;
     text-decoration: none;
@@ -9,13 +18,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 3px;
+    gap: 1.5vw;
 }
 .esquerda-cadastro{
     width: 30vw;
     height: 90vh;
     border-radius: 15px;
-    background-color: pink;
+    background-color: #FFD2E0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,12 +33,11 @@
     width: 50vw;
     height: 90vh;
     border-radius: 10px;
-    background-color: rgb(255, 195, 195);
+    /* background-color: rgb(255, 195, 195); */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
 }
 .back-cadastro{
     width: 40px;
@@ -42,96 +50,147 @@
     margin-left: -1.3vw; */
  
   }
+  .alinhamentos{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
 .nome{
-    width: 40vw;
-    height: 6vh;
-    background-color: blue;
+    width:46vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 5px;
 }
 .cpf{
     width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .telefone{
     width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .endereco{
-    width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    width: 28vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .numero-casa{
-    width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    width: 4vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .complemento{
     width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .bairro{
-    width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    width: 13vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .cidade{
-    width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    width: 13vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .estado{
-    width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    width: 4vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .cep{
     width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .email{
-    width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    width: 28vw;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 .senha{
     width: 10vw;
-    height: 3vh;
-    background-color: blue;
+    height: var(--tamanho-do-input);
+    /* background-color: blue; */
 }
 
 /* COLUNAS */
 .coluna1{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+    gap: var(--distancia-inputs);
 }
 .coluna2{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+      gap: var(--distancia-inputs);
 }
 .coluna3{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+      gap: var(--distancia-inputs);
 }
 .coluna4{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+      gap: var(--distancia-inputs);
 }
 .coluna5{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+      gap: var(--distancia-inputs);
 }
 .coluna6{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+      gap: var(--distancia-inputs);
 }
+
+/* BOTAO */
+.cadastrar{
+    padding: 2.4px;
+    /* border-color: #63ACF0; */
+    border-style: solid;
+    border-color: #63ACF0;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-top: 18px;
+    
+  }
+  .cadastrar-botao{
+    text-decoration: none;
+    border: none;
+    background-color: #63ACF0;
+    color: white;
+    border-radius: 5px;
+    padding: 2vh;
+  }
+
+  .dados-cadastrados{
+    border-style: none;
+    border-radius: 8px;  
+    width: 100%;        
+    height:6vh;
+    background-color: #EFEFEF;  
+    box-shadow: 0px 3.5px 2px rgba(112, 112, 112, 0.404);  
+    margin-top: -2vh;           
+  }
+  .dados-cadastrados:focus{
+    outline: none;
+  }
+  .link-back{
+    display: flex;
+    width: 18vw;
+    align-items: end;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .p-m{
+    
+  }
