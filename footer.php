@@ -3,7 +3,7 @@
     <div class="rodape-principal">
         <div class="rodape-corpo font_1">
             <div class="rodape-atendimento font_1">
-                <div>
+                <div class="alinha-noob">
                     <h1>Atendimento</h1>
                     <div class="r-p"><i class="ph ph-phone"></i>15 99607-4470</div>
                     <div class="r-p">solange.acf@gmail.com</div>
