@@ -7,10 +7,6 @@ p{
     color: var(--corfonte-cadastro);
 }
 
-.n-tenho-conta{
-    font-size: 12px;
-    text-decoration: none;
-}
 .cadastro{
     height: 100vh;
     width: auto;
@@ -115,9 +111,12 @@ p{
     /* background-color: blue; */
 }
 .senha{
-    width: 10vw;
+    width: 17vw;
     height: var(--tamanho-do-input);
     /* background-color: blue; */
+}
+.aberto,.fechado{
+    margin-top: -1.2vh;
 }
 
 /* COLUNAS */
@@ -159,8 +158,8 @@ p{
     border-style: solid;
     border-color: #63ACF0;
     border-radius: 5px;
-    border-width: 2px;
-    margin-top: 18px;
+    border-width: 1.7px;
+    margin-top: 3vh;
     
   }
   .cadastrar-botao{
@@ -169,7 +168,7 @@ p{
     background-color: #63ACF0;
     color: white;
     border-radius: 5px;
-    padding: 2vh;
+    padding: 1.5vh;
   }
 
   .dados-cadastrados{
@@ -179,7 +178,15 @@ p{
     height:6vh;
     background-color: #EFEFEF;  
     box-shadow: 0px 3.5px 2px rgba(112, 112, 112, 0.404);  
-    margin-top: -2vh;           
+    margin-top: -2vh;  
+    color:rgb(102, 102, 102);
+    padding-left:0.7vw ;
+    font-size: 2vh;
+  }
+  .dados-cadastrados::placeholder{
+    color: var(--corfonte-cadastro);
+    font-size: 2vh;
+   
   }
   .dados-cadastrados:focus{
     outline: none;
@@ -191,6 +198,8 @@ p{
     justify-content: center;
     flex-direction: row;
   }
-  .p-m{
-    
-  }
+  .nao-tenho-conta{
+    text-decoration-color: rgb(144, 144, 255) ;
+   
+  }.cor-nao-tenho-conta{color:rgb(161, 161, 255);}
+  

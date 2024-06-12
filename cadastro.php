@@ -38,13 +38,13 @@
                 <div class="cpf">
                     <p>CPF/CNPJ</p>
                     <form action="">
-                        <input type="text" class="dados-cadastrados">
+                        <input type="text" class="dados-cadastrados" placeholder="xxxxxxxxx-xx">
                     </form>  
                 </div>
                 <div class="telefone">
                     <p>Telefone/Celular</p>
                     <form action="">
-                        <input type="text" class="dados-cadastrados">
+                        <input type="text" class="dados-cadastrados" placeholder="(xx) xxxxx-xxxx">
                     </form>  
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <div class="endereco">
                     <p>Endereço</p>
                     <form action="">
-                        <input type="text" class="dados-cadastrados">
+                        <input type="text" class="dados-cadastrados" placeholder="Rua, avenida ou viela">
                     </form>  
                 </div>
                 <div class="numero-casa">
@@ -92,7 +92,7 @@
                 <div class="cep">
                     <p>CEP</p>
                     <form action="">
-                        <input type="text" class="dados-cadastrados">
+                        <input type="text" class="dados-cadastrados" placeholder="xxxxx-xxx">
                     </form>  
                 </div>
             </div>
@@ -101,7 +101,7 @@
                 <div class="email">
                     <p>E-mail</p>
                     <form action="">
-                        <input type="text" class="dados-cadastrados">
+                        <input type="text" class="dados-cadastrados" placeholder="seuemail@gmail.com">
                     </form>  
                 </div>
             </div>
@@ -110,12 +110,14 @@
             <div class="coluna6">
                 <div class="senha">
                     <p class="">Criar Senha</p>  
-                    <form action="">
-                        <input type="text" class="dados-cadastrados">
-                    </form>  
+                    <div class="eye">
+                    <input type="password" name="senha" id="senha" placeholder='Minimo 8 caracteres' class="dados-cadastrados" spellcheck="false">
+                        <span id="toggle-password" onclick="togglePasswordVisibility()" class="aberto"><i class="ph ph-eye"></i></span>
+                        <span id="toggle-password" onclick="togglePasswordVisibility()" class="fechado"><i class="ph ph-eye-slash"></i></span>
+                    </div>       
                 </div>
                 <div class="link-back">
-                    <p>Ja possui conta?</p><a href="login.php"><p>Login</p></a>
+                    <p>Ja possui conta?</p><a href="login.php"class="nao-tenho-conta" ><p class="cor-nao-tenho-conta">Login</p></a>
                 </div>
                 <div>
                     <div class="cadastrar">
