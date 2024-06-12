@@ -1,21 +1,20 @@
 *{
     margin: 0%;
-    
+}
+
+body{
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
-  width: 10px; /* largura da barra de rolagem */
-  background-color: transparent; /* cor de fundo transparente */
+  width: 12px; /* largura da barra de rolagem */
+  background-color: #00000056;
 }
 
 /* Para o polegar (handle) da barra de rolagem */
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.5); /* cor do polegar (com transparência) */
-}
-
-/* Para o fundo da barra de rolagem ao passar o mouse sobre ela */
-::-webkit-scrollbar-track:hover {
-  background-color: rgba(0, 0, 0, 0.1); /* cor do fundo (com transparência) */
+  background-color: rgba(0, 0, 0, 0.436); /* cor do polegar (com transparência) */
+  border-radius: 3px;
 }
 
 :root{

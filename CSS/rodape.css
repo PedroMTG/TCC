@@ -17,16 +17,17 @@
         font-size: 80%;
         margin-left: 11vh;
         display: flex;
-        gap: 9rem;
+        gap: 10rem;
     }
 
     .rodape-atendimento h1{
-        font-size: 130%;
+        font-size: 125%;
         font-weight: bold;
         margin-top: 1vh;
     }
 
     .r-p{
+        font-size: 90%;
         margin-left: 2vh;
         text-decoration: none;
         color: black;
@@ -39,9 +40,9 @@
     }
 
     .rodape-redes h1{
-        font-size: 135%;
+        font-size: 130%;
         font-weight: bold;
-        margin-block-end: 2vh;
+        margin-block-end: 1vh;
     }
 
     .rodape-img{
@@ -58,21 +59,23 @@
       }
 
     .rodape-corpo-2{
-        height: 12vh;
         background-color: var(--corfundo);
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .rodape-pagamentos{
-        font-size: 105%;
+        font-size: 100%;
         font-weight: bold;
+        margin-block-end: 1vh;
     }
 
     .rodape-corpo-2 img{
-        height: 5vh;
-        width: 13vh;
-        margin-left: 8vh;
+        height: 4vh;
+        width: 11vh;
+        margin-block-end: 4.5vh;
     }
 
     .rodape-linha{
@@ -96,7 +99,7 @@
     }
 
     .rodape-direitos{
-        height: 0.9vh;
+        height: 2vh;
         width: 100%;
         font-size: 50%;
         margin-left: 3vh;
@@ -111,8 +114,8 @@
     }
 
     .rodape-envio{
-        font-size: 105%;
-        margin-top: 2.3vh;
+        font-size: 100%;
+        margin-top: 1.6vh;
         font-weight: bold;
     }
 
@@ -133,13 +136,13 @@
         width: 6vh;
         position: absolute;
         margin-left: 11vh;
-        margin-top: 12.8vh;
+        margin-top: 9vh;
     }
     .rodape-segundo{
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 9rem;
+        gap: 9.5rem;
     }
 
     .rodape-principal{
@@ -228,6 +231,7 @@
     .rodape-pagamentos{
         font-size: 110%;
         margin-top: 3vh;
+        margin-block-end: 0.5vh;
     }
 
     .rodape-corpo-2 img{
@@ -286,16 +290,16 @@
         position: absolute;
         height: 1vh;
         width: 5vh;
-        margin-top: 9.5vh;
+        margin-top: 7.6vh;
         margin-right: 4vh;
     }
       
     .img-rodape-3{
         position: absolute;
-        height: 1.2vh;
+        height: 1.3vh;
         width: 5vh;
         margin-left: 7.6vh;
-        margin-top: 9.7vh;
+        margin-top: 7.8vh;
     }
 
     .alinha-noob{
