@@ -2,6 +2,21 @@
     margin: 0%;
 }
 
+body{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* largura da barra de rolagem */
+  background-color: #00000056;
+}
+
+/* Para o polegar (handle) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.436); /* cor do polegar (com transparência) */
+  border-radius: 3px;
+}
+
 :root{
     --primaria:#FFD2E0;
     --corfonte: #505050 ;
