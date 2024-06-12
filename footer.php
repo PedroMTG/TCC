@@ -7,6 +7,7 @@
                     <h1>Atendimento</h1>
                     <div class="r-p"><i class="ph ph-phone"></i>15 99607-4470</div>
                     <div class="r-p">solange.acf@gmail.com</div>
+                    <a href="perguntas.php" class="r-p">Perguntas frequentes</a>
                 </div>
 
                 <div class="rodape-redes-container">
