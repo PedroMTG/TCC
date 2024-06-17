@@ -18,7 +18,7 @@
         <!-- ESQUERDA -->
         <div class="esquerda-cadastro">
             <a href="login.php"><img class="back-cadastro" src="img/back.png"></a>
-            <img src="img/logo1.png">
+            <img src="img/logo1.png" class="logo-cadastro">
         </div>
 
         <!-- DIREITA -->
@@ -56,45 +56,53 @@
                         <input type="text" class="dados-cadastrados" placeholder="Rua, avenida ou viela">
                     </form>  
                 </div>
-                <div class="numero-casa">
-                    <p>N°</p>
-                    <form action="">
-                        <input type="text" class="dados-cadastrados">
-                    </form>  
-                </div>
-                <div class="complemento">
-                    <p>Complemento</p>
-                    <form action="">
-                        <input type="text" class="dados-cadastrados">
-                    </form>  
-                </div>
+                    <div class="col-3-mobile">
+                        <div class="numero-casa">
+                            <p>N°</p>
+                            <form action="">
+                                <input type="text" class="dados-cadastrados">
+                            </form>  
+                        </div>
+                        <div class="complemento">
+                            <p>Complemento</p>
+                            <form action="">
+                                <input type="text" class="dados-cadastrados">
+                            </form>  
+                        </div>
+                    </div>
             </div>
 
             <div class="coluna4">
-                <div class="bairro">
-                    <p>Bairro</p>
-                    <form action="">
-                        <input type="text" class="dados-cadastrados">
-                    </form>  
+            <div class="col-4-mobile-pt1">
+                    <div class="bairro">
+                        <p>Bairro</p>
+                        <form action="">
+                            <input type="text" class="dados-cadastrados">
+                        </form>  
+                    </div>
+                    <div class="cidade">
+                        <p>Cidade</p>
+                        <form action="">
+                            <input type="text" class="dados-cadastrados">
+                        </form>  
+                    </div>
                 </div>
-                <div class="cidade">
-                    <p>Cidade</p>
-                    <form action="">
-                        <input type="text" class="dados-cadastrados">
-                    </form>  
-                </div>
+                
+               <div class="col-4-mobile-pt2">
                 <div class="estado">
-                    <p>UF</p>
-                    <form action="">
-                        <input type="text" class="dados-cadastrados">
-                    </form>  
-                </div>
-                <div class="cep">
-                    <p>CEP</p>
-                    <form action="">
-                        <input type="text" class="dados-cadastrados" placeholder="xxxxx-xxx">
-                    </form>  
-                </div>
+                        <p>UF</p>
+                        <form action="">
+                            <input type="text" class="dados-cadastrados">
+                        </form>  
+                    </div>
+                    <div class="cep">
+                        <p>CEP</p>
+                        <form action="">
+                            <input type="text" class="dados-cadastrados" placeholder="xxxxx-xxx">
+                        </form>  
+                    </div>
+               </div>
+
             </div>
 
             <div class="coluna5">

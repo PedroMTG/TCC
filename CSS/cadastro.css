@@ -2,11 +2,14 @@
     --tamanho-do-input:12vh;
     --distancia-inputs:1.8vw;
     --corfonte-cadastro: #8C8D94 ;
+    --distancia-inputs-mobile: 6.0vw;
 }
+
+/* DESKTOP */
+@media screen and (min-width: 576px){
 p{
     color: var(--corfonte-cadastro);
 }
-
 .cadastro{
     height: 100vh;
     width: auto;
@@ -130,10 +133,25 @@ p{
     flex-direction: row;
       gap: var(--distancia-inputs);
 }
+.col-3-mobile{
+    display: flex;
+    flex-direction: reverse;
+    gap: var(--distancia-inputs);
+}
 .coluna3{
     display: flex;
     flex-direction: row;
       gap: var(--distancia-inputs);
+}
+.col-4-mobile-pt1{
+    display: flex;
+    flex-direction: row;
+    gap: var(--distancia-inputs);
+}
+.col-4-mobile-pt2{
+    display: flex;
+    flex-direction: row;
+    gap: var(--distancia-inputs);
 }
 .coluna4{
     display: flex;
@@ -202,4 +220,266 @@ p{
     text-decoration-color: rgb(144, 144, 255) ;
    
   }.cor-nao-tenho-conta{color:rgb(161, 161, 255);}
-  
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* MOBILE */
+@media screen and (max-width: 576px){
+    p{
+        color: var(--corfonte-cadastro);
+        font-size: 24px;
+    }
+    .cadastro{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vw;
+    }
+    .logo-cadastro{
+        width: 45vw;
+        height: 20vh;
+    }
+    .esquerda-cadastro{
+        width: 88vw;
+        height: 22vh;
+        border-radius: 15px;
+        background-color: #FFD2E0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .direita-cadastro{
+        width: auto;
+        border-radius: 10px;
+        /* background-color: rgb(255, 195, 195); */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .back-cadastro{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        position: absolute;
+        top: 2vh;
+        left: 9vw;
+        /* margin-top: -41vh;
+        margin-left: -1.3vw; */
+     
+      }
+      .alinhamentos{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        width: 85vw;
+      }
+    .nome{
+        width:85vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .cpf{
+        width: 42.5vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .telefone{
+        width: 42.5vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .endereco{
+        width: 85vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .numero-casa{
+        width: 15vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .complemento{
+        width: 70vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .bairro{
+        width: 45vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .cidade{
+        width: 45vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .estado{
+        width: 15vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .cep{
+        width: 32vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .email{
+        width: 75vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .senha{
+        width: 17vw;
+        height: var(--tamanho-do-input);
+        /* background-color: blue; */
+    }
+    .aberto,.fechado{
+        margin-top: -1.2vh;
+    }
+    
+    /* COLUNAS */
+    .coluna1{
+        display: flex;
+        flex-direction: row;
+        gap: var(--distancia-inputs-mobile);
+    }
+    .coluna2{
+        display: flex;
+        flex-direction: row;
+          gap: var(--distancia-inputs-mobile);
+    }
+    .col-3-mobile{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: var(--distancia-inputs-mobile);
+    }
+    .coluna3{
+        display: flex;
+        flex-direction: column;
+          gap: var(--distancia-inputs-mobile);
+    }
+    .col-4-mobile-pt2{
+        display: flex;
+        flex-direction: row;
+        gap: var(--distancia-inputs-mobile);
+    }
+    .col-4-mobile-pt1{
+        display: flex;
+        flex-direction: row;
+        gap: var(--distancia-inputs-mobile);
+    }
+    .coluna4{
+        display: flex;
+        flex-direction: column;
+          gap: var(--distancia-inputs-mobile);
+    }
+    .coluna5{
+        display: flex;
+        flex-direction: row;
+          gap: var(--distancia-inputs-mobile);
+    }
+    .coluna6{
+        display: flex;
+        flex-direction: row;
+          gap: var(--distancia-inputs-mobile);
+    }
+    
+    /* BOTAO */
+    .cadastrar{
+        padding: 2.4px;
+        /* border-color: #63ACF0; */
+        border-style: solid;
+        border-color: #63ACF0;
+        border-radius: 5px;
+        border-width: 1.7px;
+        margin-top: 3vh;
+        
+      }
+      .cadastrar-botao{
+        text-decoration: none;
+        border: none;
+        background-color: #63ACF0;
+        color: white;
+        border-radius: 5px;
+        padding: 1.5vh;
+      }
+    
+      .dados-cadastrados{
+        border-style: none;
+        border-radius: 8px;  
+        width: 100%;        
+        height:42px;
+        background-color: #EFEFEF;  
+        box-shadow: 0px 3.5px 2px rgba(112, 112, 112, 0.404);  
+        margin-top: -2vh;  
+        color:rgb(102, 102, 102);
+        padding-left:2vw ;
+        font-size: 20px;
+      }
+      .dados-cadastrados::placeholder{
+        color: var(--corfonte-cadastro);
+        font-size: 20px;
+       
+      }
+      .dados-cadastrados:focus{
+        outline: none;
+      }
+      .link-back{
+        display: flex;
+        width: 18vw;
+        align-items: end;
+        justify-content: center;
+        flex-direction: row;
+      }
+      .nao-tenho-conta{
+        text-decoration-color: rgb(144, 144, 255) ;
+       
+      }.cor-nao-tenho-conta{color:rgb(161, 161, 255);}
+    
+    
+    
+    
+}
