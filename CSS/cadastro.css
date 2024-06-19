@@ -1,8 +1,9 @@
 :root{
     --tamanho-do-input:12vh;
+    --tamanho-do-input-mobile:80px;
     --distancia-inputs:1.8vw;
     --corfonte-cadastro: #8C8D94 ;
-    --distancia-inputs-mobile: 6.0vw;
+    --distancia-inputs-mobile: 15px;
 }
 
 /* DESKTOP */
@@ -163,6 +164,11 @@ p{
     flex-direction: row;
       gap: var(--distancia-inputs);
 }
+.col-6-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: var(--distancia-inputs);
+}
 .coluna6{
     display: flex;
     flex-direction: row;
@@ -271,20 +277,21 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1.5vw;
+        gap: 10px;
     }
     .logo-cadastro{
-        width: 45vw;
-        height: 20vh;
+        width: 175px;
+        height: 132px;
     }
     .esquerda-cadastro{
-        width: 88vw;
-        height: 22vh;
+        width: 90vw;
+        height: 146px;
         border-radius: 15px;
         background-color: #FFD2E0;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 2vh;
     }
     .direita-cadastro{
         width: auto;
@@ -294,14 +301,15 @@ p{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 3vh;
     }
     .back-cadastro{
         width: 40px;
         height: 40px;
         display: flex;
         position: absolute;
-        top: 2vh;
-        left: 9vw;
+        top: 1.6rem;
+        left: 2rem;
         /* margin-top: -41vh;
         margin-left: -1.3vw; */
      
@@ -323,57 +331,57 @@ p{
     }
     .cpf{
         width: 42.5vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .telefone{
         width: 42.5vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .endereco{
         width: 85vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .numero-casa{
         width: 15vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .complemento{
         width: 70vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .bairro{
         width: 45vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .cidade{
         width: 45vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .estado{
         width: 15vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .cep{
         width: 32vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .email{
         width: 75vw;
-        height: var(--tamanho-do-input);
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .senha{
-        width: 17vw;
-        height: var(--tamanho-do-input);
+        width: 75vw;
+        height: var(--tamanho-do-input-mobile);
         /* background-color: blue; */
     }
     .aberto,.fechado{
@@ -419,11 +427,17 @@ p{
     .coluna5{
         display: flex;
         flex-direction: row;
-          gap: var(--distancia-inputs-mobile);
+        gap: var(--distancia-inputs-mobile);
+    }
+    .col-6-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: var(--distancia-inputs-mobile);
     }
     .coluna6{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
           gap: var(--distancia-inputs-mobile);
     }
     
@@ -469,10 +483,13 @@ p{
       }
       .link-back{
         display: flex;
-        width: 18vw;
+        width: 50vw;
         align-items: end;
         justify-content: center;
         flex-direction: row;
+      }
+      .link-back p{
+        font-size: 4vw;
       }
       .nao-tenho-conta{
         text-decoration-color: rgb(144, 144, 255) ;
