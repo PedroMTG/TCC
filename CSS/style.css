@@ -557,10 +557,10 @@ header{
       }
         /* FECHA ICONE DE OLHO */
       .logo-login{
-        width: 90vw;
+        width: 75vw;
       }
       .login{
-        height: 100%;
+        height: 100vh;
         width:97vw;
         display: flex;
         align-items: center;

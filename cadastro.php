@@ -124,12 +124,14 @@
                         <span id="toggle-password" onclick="togglePasswordVisibility()" class="fechado"><i class="ph ph-eye-slash"></i></span>
                     </div>       
                 </div>
-                <div class="link-back">
-                    <p>Ja possui conta?</p><a href="login.php"class="nao-tenho-conta" ><p class="cor-nao-tenho-conta">Login</p></a>
-                </div>
-                <div>
-                    <div class="cadastrar">
-                        <button class="cadastrar-botao">Cadastrar</button>
+                <div class="col-6-mobile">
+                    <div class="link-back">
+                        <p>Ja possui conta?</p><a href="login.php"class="nao-tenho-conta" ><p class="cor-nao-tenho-conta">Login</p></a>
+                    </div>
+                    <div>
+                        <div class="cadastrar">
+                            <button class="cadastrar-botao">Cadastrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
