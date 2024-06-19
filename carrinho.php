@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="js/script.js" defer></script>
+    <title>Inicio</title>
+
+</head>
+<body>
+    <!-- HEADER -->
+     <?php include 'header.php' ?>
+
+     <div class="body-carrinho">
+        <div class="carrinho-esquerdo">
+            <div class="item">
+                <div class="item-nome">Nome_item</div>
+                <hr>
+                <div class="item-meio">
+                    <div class="item-foto"><img src="img/cachorro.jpg" alt="" class="foto-img"></div>
+                    <div class="item-quantidade">
+                        <div class="divisao-excluir">
+                            <div class="botao-excluir">Excluir</div>
+                            <div class="botao-mais">
+                                <div class="aumentar">+</div>
+                                <div class="valor">#</div>
+                                <div class="diminuir">-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-preco">999,99 R$</div>
+                </div>
+                <hr>
+                <div class="item-frete">
+                    <div class="fretee">Frete</div>
+                    <div class="preco-frete">Gratis</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrinho-direito">
+            <div class="total">
+                <div class="total-nome"></div>
+                <div class="total-preco"></div>
+                <div class="total-botão"></div>
+            </div>
+        </div>
+     </div>
+
+
+
+
+    <?php include 'footer.php' ?>
+</body>
+</html>

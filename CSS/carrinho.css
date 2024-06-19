@@ -1,0 +1,98 @@
+@media screen and (min-width: 576px){
+    .body-carrinho{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 6rem;
+        margin-top: 5vh;
+    }
+
+    .carrinho-esquerdo{
+        width: 120vh;
+    }
+    .carrinho-direito{
+        width: 60vh;
+        background-color: blue;
+    }
+
+    .item{
+        border-radius: 20px;
+        background-color: white;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.402);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.514);
+    }
+    .item-nome{
+        color: rgba(0, 0, 0, 0.68);
+        margin: 2vh 0vh 2vh 6vh;
+        font-size: large;
+        font-weight: bold;
+    }
+    .item-meio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3vh;
+    }
+    .item-foto{
+        height: 20vh;
+        width: 20vh;
+        background-color: blue;
+        border-radius: 1vh;
+        margin: 1vh;
+    }
+    .foto-img{
+        height: 20vh;
+        width: 20vh;
+    }
+    .divisao-excluir{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3vh;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.589);
+    }
+    .botao-mais{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20vh;
+        gap: 2vh;
+        height: 3vh;
+        width: 11vh;
+        border-radius: 5px;
+        border-style: solid;      
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.427);
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.683);
+    }
+
+    .item-preco{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        width: 40vh;
+        color: rgba(0, 0, 0, 0.696);
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .item-frete{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2vh 5vh 2vh 6vh;
+        font-size: large;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.639);
+    }
+    .preco-frete{
+        color: green;
+    }
+}
