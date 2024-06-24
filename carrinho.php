@@ -20,6 +20,8 @@
 
      <div class="body-carrinho">
         <div class="carrinho-esquerdo">
+
+        <!-- abre item do carrinho -->
             <div class="item">
                 <div class="item-nome">Nome_item</div>
                 <hr>
@@ -43,20 +45,47 @@
                     <div class="preco-frete">Gratis</div>
                 </div>
             </div>
+        <!-- fexa item do carrinho -->
+
         </div>
 
         <div class="carrinho-direito">
             <div class="total">
-                <div class="total-nome"></div>
-                <div class="total-preco"></div>
-                <div class="total-botão"></div>
+                <div class="total-nome">Total da Compra</div>
+
+                <hr>
+
+                <div class="total-preco">
+                    <div class="divProdutoNome">
+                        <div class="divProdutoNomeItem">XXXXXX(2)</div>
+                        <div class="divProdutoNomeItem">XXXXXX(2)</div>
+                        <div class="divProdutoNomeItemFrete">Frete</div>
+                    </div>
+                    <div class="divProdutoPreco">
+                        <div class="divProdutoNomePreco">R$ 300.00</div>
+                        <div class="divProdutoNomePrecoFrete">Gratis</div>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="total-botao">
+
+                    <div class="TOTAL">
+                        <div>Total</div>
+                        <div>R$ 600.00</div>
+                    </div>
+
+                    <div class="botaoTerminarCompra">
+                        <button class="terminarCompra" >Terminar compra</button>
+                    </div>
+                </div>
             </div>
         </div>
      </div>
 
-
-
-
+        <!-- Footer -->
     <?php include 'footer.php' ?>
 </body>
 </html>

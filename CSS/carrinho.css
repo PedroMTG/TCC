@@ -12,11 +12,6 @@
         width: 120vh;
     }
 
-    .carrinho-direito{
-        width: 60vh;
-        background-color: blue;
-    }
-
     .item{
         border-radius: 20px;
         background-color: white;
@@ -105,7 +100,69 @@
         font-weight: bold;
         color: rgba(0, 0, 0, 0.639);
     }
-    .preco-frete{
-        color: green;
+    .preco-frete{color: rgb(0, 179, 0);;}
+
+    .carrinho-direito{
+        width: 60vh;
+        background-color: white;
     }
+
+    .total{
+        border-radius: 20px;
+        background-color: white;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.402);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.514);
+    }
+
+    .total-nome{
+        color: rgba(0, 0, 0, 0.68);
+        margin: 2vh 0vh 2vh 0vh;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .total-preco{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0vh 3vh 0vh 3vh;
+        font-weight: bold;
+        color: rgb(154, 154, 154);
+    }
+    .divProdutoPreco{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .divProdutoNomePrecoFrete{color: rgb(0, 179, 0);}
+
+    .total-botao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terminarCompra{
+        background-color: #63ACF0;
+        color: white;
+        margin: 2vh;
+        height: 8vh;
+        width: 55vh;
+        border-radius: 2vh;
+        border-color: rgba(0, 0, 0, 0.304);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
+    }
+
+    .TOTAL{
+        font-weight: bold;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0vh 3vh 0vh 3vh;
+    }
+
 }
