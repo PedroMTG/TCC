@@ -17,3 +17,21 @@ function togglePasswordVisibility() {
 document.querySelectorAll('input[type="text"]').forEach(input => {
 input.setAttribute('spellcheck', 'false');
 });
+
+
+// script botão aumentar do carrinho
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.adicionar, .remover').forEach(botao => {
+      botao.addEventListener('click', function() {
+        const item = this.parentElement;
+        const quantidadeElemento = item.querySelector('.quantidade');
+        let quantidade = parseInt(quantidadeElemento.textContent);
+        
+        if (this.classList.contains('adicionar')) {
+          quantidadeElemento.textContent = ++quantidade;
+        } else if (quantidade > 0) {
+          quantidadeElemento.textContent = --quantidade;
+        }
+      });
+    });
+  });

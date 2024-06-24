@@ -24,17 +24,17 @@
                 <div class="item-nome">Nome_item</div>
                 <hr>
                 <div class="item-meio">
-                    <div class="item-foto"><img src="img/cachorro.jpg" alt="" class="foto-img"></div>
-                    <div class="item-quantidade">
-                        <div class="divisao-excluir">
-                            <div class="botao-excluir">Excluir</div>
-                            <div class="botao-mais">
-                                <div class="aumentar">+</div>
-                                <div class="valor">#</div>
-                                <div class="diminuir">-</div>
+                    <div class="item-foto">
+                        <img src="img/cachorro.jpg" alt="" class="foto-img">
+                        <div class="botao-excluir">Excluir</div>
+                            <div class="carrinhoA">
+                                <div class="item-carrinho">
+                                    <i class="ph ph-plus adicionar"></i>
+                                    <span class="quantidade">0</span>
+                                    <i class="ph ph-minus remover"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <div class="item-preco">999,99 R$</div>
                 </div>
                 <hr>

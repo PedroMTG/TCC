@@ -11,6 +11,7 @@
     .carrinho-esquerdo{
         width: 120vh;
     }
+
     .carrinho-direito{
         width: 60vh;
         background-color: blue;
@@ -23,6 +24,7 @@
         border-color: rgba(0, 0, 0, 0.402);
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.514);
     }
+
     .item-nome{
         color: rgba(0, 0, 0, 0.68);
         margin: 2vh 0vh 2vh 6vh;
@@ -33,50 +35,60 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         gap: 3vh;
     }
+
     .item-foto{
-        height: 20vh;
-        width: 20vh;
-        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4vh;
         border-radius: 1vh;
         margin: 1vh;
     }
+
     .foto-img{
         height: 20vh;
         width: 20vh;
     }
-    .divisao-excluir{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 3vh;
+
+    .botao-excluir{
         font-weight: bold;
         color: rgba(0, 0, 0, 0.589);
+        cursor: pointer;
     }
-    .botao-mais{
+
+    .carrinhoA {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
+        width: 13vh;
+        margin: 0 auto;
+    }
+    
+    .adicionar{color: blue;}
+    .remover{color: gray;}
+
+    .item  i{
+        cursor: pointer;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .item-carrinho{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-right: 20vh;
         gap: 2vh;
-        height: 3vh;
-        width: 11vh;
-        border-radius: 5px;
-        border-style: solid;      
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.427);
-        font-weight: bold;
-        color: rgba(0, 0, 0, 0.683);
     }
 
     .item-preco{
         display: flex;
         flex-direction: row;
         justify-content: end;
-        width: 40vh;
+        width: 45vh;
         color: rgba(0, 0, 0, 0.696);
         font-size: larger;
         font-weight: bold;
