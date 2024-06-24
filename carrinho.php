@@ -58,10 +58,11 @@
                 <div class="total-preco">
                     <div class="divProdutoNome">
                         <div class="divProdutoNomeItem">XXXXXX(2)</div>
-                        <div class="divProdutoNomeItem">XXXXXX(2)</div>
+                        <div class="divProdutoNomeItem">XXXXXX(1)</div>
                         <div class="divProdutoNomeItemFrete">Frete</div>
                     </div>
                     <div class="divProdutoPreco">
+                        <div class="divProdutoNomePreco">R$ 300.00</div>
                         <div class="divProdutoNomePreco">R$ 300.00</div>
                         <div class="divProdutoNomePrecoFrete">Gratis</div>
                     </div>
@@ -74,7 +75,7 @@
 
                     <div class="TOTAL">
                         <div>Total</div>
-                        <div>R$ 600.00</div>
+                        <div>R$ 900.00</div>
                     </div>
 
                     <div class="botaoTerminarCompra">
