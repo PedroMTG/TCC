@@ -45,7 +45,33 @@
                     <div class="preco-frete">Gratis</div>
                 </div>
             </div>
-        <!-- fexa item do carrinho -->
+                <!-- fexa item do carrinho -->
+
+                <!-- abre item do carrinho -->
+            <div class="item">
+                <div class="item-nome">Nome_item</div>
+                <hr>
+                <div class="item-meio">
+                    <div class="item-foto">
+                        <img src="img/cachorro.jpg" alt="" class="foto-img">
+                        <div class="botao-excluir">Excluir</div>
+                            <div class="carrinhoA">
+                                <div class="item-carrinho">
+                                    <i class="ph ph-plus adicionar"></i>
+                                    <span class="quantidade">0</span>
+                                    <i class="ph ph-minus remover"></i>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="item-preco">999,99 R$</div>
+                </div>
+                <hr>
+                <div class="item-frete">
+                    <div class="fretee">Frete</div>
+                    <div class="preco-frete">Gratis</div>
+                </div>
+            </div>
+                <!-- fexa item do carrinho -->
 
         </div>
 
@@ -68,6 +94,8 @@
                     </div>
 
                 </div>
+
+                <div class="espaco-branco"></div>
 
                 <hr>
 
