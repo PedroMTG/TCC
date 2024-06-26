@@ -333,6 +333,7 @@
     .total-botao{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .terminarCompra{
@@ -340,10 +341,11 @@
         color: white;
         margin: 1vh;
         height: 3rem;
-        width: 41vh;
+        width: 100%;
         border-radius: 2vh;
         border-color: rgba(0, 0, 0, 0.304);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
+        margin: 0vh 0vh 6vh 0vh;
     }
 
     .TOTAL{
@@ -354,7 +356,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin: 0vh 3vh 0vh 3vh;
+        margin: 3vh 3vh 3vh 3vh;
     }
 
    .espaco-branco{
