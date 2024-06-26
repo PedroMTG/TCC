@@ -13,6 +13,8 @@
     <title>Inicio</title>
 </head>
 <body class="pagina-principal">
+<!-- [.ShellClassInfo]
+LocalizedResourceName=@TCC,0 -->
 
     <!-- HEADER -->
      <?php include 'header.php' ?>
