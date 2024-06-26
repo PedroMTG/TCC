@@ -172,3 +172,194 @@
    }
 
 }
+
+
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 576px){
+
+    .rodape-corpo{display: none;}
+    .rodape-corpo-2{display: none;}
+    .img-rodape-2{position: none;}
+    .img-rodape-3{position: none;}
+
+    .body-carrinho{
+        width: 100%;
+        gap: 1rem;
+        margin-top: 1vh;
+    }
+
+    .carrinho-esquerdo{
+        width: 100%;
+    }
+
+    .item{
+        border-radius: 4px;
+        background-color: white;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.402);
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.514);
+        margin: 6vh 2vh 6vh 2vh;
+    }
+
+    .item-nome{
+        color: rgba(0, 0, 0, 0.68);
+        margin: 1vh 0vh 1vh 3vh;
+        font-size: medium;
+        font-weight: bold;
+    }
+    .item-meio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .item-foto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vh;
+        border-radius: 0.5vh;
+    }
+
+    .foto-img{
+        height: 9vh;
+        width: 9vh;
+        border-radius: 0.5vh;
+        margin: 1vh;
+    }
+
+    .botao-excluir{
+        font-weight: bold;
+        font-size: 75%;
+        color: rgba(0, 0, 0, 0.589);
+        cursor: pointer;
+    }
+
+    .carrinhoA {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
+        width: 6vh;
+        font-size: 60%;
+    }
+    
+    .adicionar{color: blue;}
+    .remover{color: gray;}
+
+    .item  i{
+        cursor: pointer;
+        font-weight: bold;
+        font-size: smaller;
+    }
+
+    .item-carrinho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6vh;
+    }
+
+    .item-preco{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        color: rgba(0, 0, 0, 0.696);
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .item-frete{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1vh 2.5vh 1vh 3vh;
+        font-size: medium;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.639);
+    }
+    .preco-frete{color: rgb(0, 179, 0);;}
+
+    .carrinho-direito{
+        width: 100%;
+        background-color: white;
+        position: fixed; /* Define que o elemento terá uma posição fixa na tela */
+        bottom: 0; /* Alinha o elemento na parte inferior da tela */
+        width: 100%; /* Ocupa toda a largura disponível */
+        background-color: #f0f0f0; /* Cor de fundo (exemplo) */
+        bottom: calc(-100vh + 100%); /* Coloca o elemento 100% abaixo do rodapé */
+
+    }
+
+    .total{
+        background-color: white;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.598);
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.514);
+    }
+
+    .total-nome{
+        color: rgba(0, 0, 0, 0.68);
+        margin: 1vh 0vh 1vh 0vh;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .total-preco{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: small;
+        margin: 0vh 1.5vh 0vh 1.5vh;
+        font-weight: bold;
+        color: rgb(154, 154, 154);
+    }
+    .divProdutoPreco{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .divProdutoNomePrecoFrete{color: rgb(0, 179, 0);}
+
+    .total-botao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .terminarCompra{
+        background-color: #63ACF0;
+        color: white;
+        margin: 1vh;
+        height: 3rem;
+        width: 100%;
+        border-radius: 2vh;
+        border-color: rgba(0, 0, 0, 0.304);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
+        margin: 0vh 0vh 6vh 0vh;
+    }
+
+    .TOTAL{
+        font-weight: bold;
+        font-size: 120%;
+        font-family: Verdana, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3vh 3vh 3vh 3vh;
+    }
+
+   .espaco-branco{
+    height: 3.5vh;
+   }
+}

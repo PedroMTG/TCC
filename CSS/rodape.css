@@ -135,8 +135,8 @@
         height: 2vh;
         width: 6vh;
         position: absolute;
-        margin-left: 11vh;
-        margin-top: 9vh;
+        margin-left: 1vh;
+        margin-top: 1.9vh;
     }
     .rodape-segundo{
         display: flex;
@@ -287,19 +287,13 @@
     }
 
     .img-rodape-2{
-        position: absolute;
         height: 1vh;
         width: 5vh;
-        margin-top: 7.6vh;
-        margin-right: 4vh;
     }
       
     .img-rodape-3{
-        position: absolute;
         height: 1.3vh;
         width: 5vh;
-        margin-left: 7.6vh;
-        margin-top: 7.8vh;
     }
 
     .alinha-noob{
