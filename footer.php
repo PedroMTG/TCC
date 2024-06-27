@@ -32,7 +32,7 @@
             <div class="rodape-corpo-3">
                 <div class="rodape-envio font_f font_1">Meios de envio</div>
                 <img class="img-rodape-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Correios_%282014%29.svg/1200px-Correios_%282014%29.svg.png" alt="">
-                <div>
+                <div class="rodape-envio-sedex">
                     <img class="img-rodape-2" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Sedex_logo.png" alt="">
                     <img class="img-rodape-3" src="https://logodownload.org/wp-content/uploads/2017/03/pac-correios-logo.png" alt="">
                 </div>
