@@ -16,15 +16,15 @@
         border-radius: 20px;
         background-color: white;
         border-style: solid;
-        border-color: rgba(0, 0, 0, 0.402);
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.514);
+        border-color: rgba(0, 0, 0, 0.187);
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.329);
         margin: 0vh 0vh 5vh 0vh;
     }
 
     .item-nome{
         color: rgba(0, 0, 0, 0.68);
         margin: 2vh 0vh 2vh 6vh;
-        font-size: large;
+        font-size: 1.3rem;
         font-weight: bold;
     }
     .item-meio{
@@ -87,7 +87,7 @@
         justify-content: end;
         width: 45vh;
         color: rgba(0, 0, 0, 0.696);
-        font-size: larger;
+        font-size: 1.3rem;
         font-weight: bold;
     }
 
@@ -97,7 +97,7 @@
         align-items: center;
         justify-content: space-between;
         margin: 2vh 5vh 2vh 6vh;
-        font-size: large;
+        font-size: 1.3rem;
         font-weight: bold;
         color: rgba(0, 0, 0, 0.639);
     }
@@ -112,14 +112,14 @@
         border-radius: 20px;
         background-color: white;
         border-style: solid;
-        border-color: rgba(0, 0, 0, 0.402);
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.514);
+        border-color: rgba(0, 0, 0, 0.243);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.327);
     }
 
     .total-nome{
         color: rgba(0, 0, 0, 0.68);
         margin: 2vh 0vh 2vh 0vh;
-        font-size: large;
+        font-size: 1.4rem;
         font-weight: bold;
         text-align: center;
     }
@@ -146,19 +146,20 @@
     }
 
     .terminarCompra{
+        font-size: 1.4rem;
         background-color: #63ACF0;
         color: white;
         margin: 2vh;
         height: 8vh;
         width: 55vh;
         border-radius: 2vh;
-        border-color: rgba(0, 0, 0, 0.304);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
+        border-color: rgba(0, 0, 0, 0.346);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.527);
     }
 
     .TOTAL{
         font-weight: bold;
-        font-size: 130%;
+        font-size: 1.5rem;
         font-family: Verdana, Tahoma, sans-serif;
         display: flex;
         flex-direction: row;
@@ -182,10 +183,9 @@
 /* Mobile */
 @media screen and (max-width: 576px){
 
-    .rodape-corpo{display: none;}
-    .rodape-corpo-2{display: none;}
-    .img-rodape-2{position: none;}
-    .img-rodape-3{position: none;}
+    .rodape-corpo{}
+    .rodape-corpo-2{}
+    .rodape-direitos{margin: 0vh 0vh 34.6vh 0vh;}
 
     .body-carrinho{
         width: 100%;
@@ -201,8 +201,8 @@
         border-radius: 4px;
         background-color: white;
         border-style: solid;
-        border-color: rgba(0, 0, 0, 0.402);
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.514);
+        border-color: rgba(0, 0, 0, 0.213);
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.235);
         margin: 6vh 2vh 6vh 2vh;
     }
 
@@ -341,11 +341,11 @@
         color: white;
         margin: 1vh;
         height: 3rem;
-        width: 100%;
+        width: 90%;
         border-radius: 2vh;
         border-color: rgba(0, 0, 0, 0.304);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);
-        margin: 0vh 0vh 6vh 0vh;
+        margin: 0vh 0vh 4vh 2vh;
     }
 
     .TOTAL{
