@@ -1,6 +1,10 @@
+:root{
+    --tamanho-da-coluna:10vh;
+    --comprimento-da-coluna:85%;
+}
 .conta{
     width: 100%;
-    height: 73vh;
+    height: 71vh;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 12vw;
 }
 .botao-container{
     width: 100%;
@@ -62,13 +66,41 @@
 
 /* DIREITA DESKTOP */
 .direita{
-    height: 50vh;
+    margin-top: 4vh;
+    height: 55vh;
     width: 105vh;
     border:2px solid rgba(128, 128, 128, 0.571) ;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    /* background-color: red;*/
+}
+.coluna1,.coluna2,.coluna3,.coluna4{
+    width:var(--comprimento-da-coluna);
+    height: var(--tamanho-da-coluna);
     /* background-color: red; */
 }
 
+.nome,.telefone,.endereco,.numero-casa,.complemento,.bairro,.cidade,.uf,.senha,.email{
+    display: flex;
+    flex-direction: column;
+}
+.nome-cont,.telefone-cont,.dados6-cont,.ultimo-dado-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+.texto-da-coluna{
+    font-size: 1.2em;
+    color: #8C8D94;
+}
+.dados-da-coluna{
+    font-size: 0.9em;
+    color: #8c8d9494;
+}
 .editar-perfil{
     padding: 2.4px;
     /* border-color: #63ACF0; */
